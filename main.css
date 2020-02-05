@@ -393,9 +393,9 @@ body {background: lightsteelblue !important;}
   display: grid;
   grid-template-areas:
     "title title title"
-    "pic bio bio"
-    "pic bio bio"
-    "bio bio bio";
+    "pic top top"
+    "pic mid mid"
+    "bio bot bot";
   margin: 80px 0 100px 100px;
 }
 
@@ -418,20 +418,20 @@ body {background: lightsteelblue !important;}
 }
 
 .bio_list {
-  grid-area: bio;
-  grid-row: 2/4;
-  grid-column: 2.4;
+  grid-area: mid;
+  grid-row: 3/4;
+  grid-column: 2/4;
 }
 
 #bio_header {
-  grid-area: bio;
+  grid-area: top;
   grid-row: 2/3;
   grid-column: 2/4;
   width: 1000px;
 }
 
 #bio_footer {
-  grid-area: bio;
+  grid-area: bot;
   grid-row: 4/5;
   grid-column: 1/4;
 }
