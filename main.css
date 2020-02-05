@@ -38,9 +38,6 @@
 
 /*====================================*/
 
-body {
- /*lightgray !important*/
-}
 
 #site-container {
   width: 100vw;
@@ -88,10 +85,14 @@ li a {
     height: 50px;
     text-align: center;
     line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bitter", Times Roman, serif;
     color: white;
     background: var(--blueribbon);
     text-decoration: none !important;
+}
+
+li ul li a {
+    font-family: "Oswald", sans-serif;
 }
 
 /*Hover state for top level links*/
@@ -151,7 +152,7 @@ ul li a:hover + .hidden, .hidden:hover {
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Bitter", Times Roman, serif;
     text-decoration: none;
     color: white;
     background: var(--shell);
