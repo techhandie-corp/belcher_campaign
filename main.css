@@ -417,14 +417,20 @@ body {background: lightsteelblue !important;}
   margin: 0 ;
 }
 
-.d-bio {
+.bio_list {
   grid-area: bio;
   grid-row: 2/4;
+  grid-column: 2.4;
+}
+
+#bio_header {
+  grid-area: bio;
+  grid-row: 2/3;
   grid-column: 2/4;
   width: 1000px;
 }
 
-.statment.just {
+#bio_footer {
   grid-area: bio;
   grid-row: 4/5;
   grid-column: 1/4;
