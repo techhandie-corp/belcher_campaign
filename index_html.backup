@@ -14,14 +14,12 @@
 
   <!-- Site Title & Style Source -->
   <title>Belcher for Council</title>
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="main.css"/>
 
 </head>
 
 <body>
-
   <div id="site-container">
-
     <header>
       <input type="checkbox" id="show-menu" role="button" />
       <label for="show-menu" class="show-menu"><i class="fas fa-bars"></i>&nbsp;&nbsp;Menu</label>
@@ -46,56 +44,59 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </header>
+    <section id="container">
+      <div class="jumbotron">
+        <h1 id="title" class="weighty shine center">
+          Denise Belcher for the Teaneck Council
+        </h1>
+        <div id="side" class="just">
+          <p>
+            On the 100th anniversary of the ratification of the 19th
+            ammendment to the Constitution, which ensured the women's right to
+            vote, we are reminded of the great sacrifices many have made for
+            the right to vote.
+          </p>
+          <p>
+            Historically, the Women's Suffrage movement played a key role in
+            the achievement of that milestone. Like the female leaders of that
+            movement, Denise Belcher, is a strong steady voice for
+            <b><i>ALL of Teaneck</i></b>, with a love for community and a love for service.
+          </p>
+        </div>
+        <div class="buttons">
 
+          <div class="title1 center">Help Lift Teaneck Up!</div>
+          <div class="title2 center">Make a Contribution ...</div>
 
-    <section id="denise">
-      <div class="bio just">
-        <h1 id="page-title" class="weighty shine center">Meet Denise!</h1>
-        <div id="d-image"><img src="images\Denise Bust Shot.jpg" /></div>
-        <div class="d-bio">
-          <div id="bio_header" class="statement">
-            I’m <i>passionate</i> about the Teaneck community and
-            <i>serving</i> in our wonderful town.
+          <div class="donate1">
+            <button type="button"><a href="#">Volunteer</a></button>
           </div>
-          <ul class="bio_list">
-            <li>
-              Teaneck Resident for 35 years & Lifelong Resident of Bergen County
-            </li>
-            <li>
-              Planning Board Member Actively Present, Engaged and Involved in
-              serving 2017-2019
-            </li>
-            <li>Founding Member Teaneck Road Business and Community Alliance</li>
-            <li>
-              Licensed Real Estate Broker and Educator of XCEED Realty and School
-              of Real Estate Studies
-            </li>
-            <li>
-              Affordable Housing Forum organizer hosted for Teaneck Residents
-              2018-2019
-            </li>
-            <li>
-              Possess a Clear Understanding of Housing Stock, Development and
-              Zoning
-            </li>
-            <li>
-              Economic Empowerment Chair of Coalition of 100 Black Women
-              Bergen/Passaic Chapter
-            </li>
-            <li>Member of AA Chamber of Commerce of NJ</li>
-            <li>Former President of Teaneck Chamber of Commerce</li>
-            <li>Married for 26 years and mother to 2 Gorgeous Girls</li>
-            <li>Minister at Christian International Church</li>
-          </ul>
-          <div id="bio_footer" class="statement just">
-            My belief is that <b>Diversity</b> is a fundamental strength of
-            Teaneck which includes diversity of <i>ideas</i>, <i>time</i> and
-            <i>talent</i> which is equally important. It’s for this reason I’m
-            running for Town Council and seek your support.
+          <div class="donate2">
+            <button type="button"><a href="#">$1</a></button>
           </div>
-        </div><!-- d-bio -->
+          <div class="donate3">
+            <button type="button"><a href="#">$10</a></button>
+          </div>
+          <div class="donate4">
+            <button type="button"><a href="#">$50</a></button>
+          </div>
+          <div class="donate5">
+            <button type="button"><a href="#">$100</a></button>
+          </div>
+          <div class="donate6">
+            <button type="button"><a href="#">$250</a></button>
+          </div>
+          <div class="donate7">
+            <button type="button"><a href="#">$500</a></button>
+          </div>
+          <div class="donate8">
+            <button type="button"><a href="#">More ...</a></button>
+          </div>
+        </div>
       </div>
+      <!--jumbotron-->
     </section>
+    <!--container-->
     <footer id="footer">
       <ul id="f-menu">
         <li><a href="#"><i class='fab fa-instagram'></i></a></li>
@@ -111,10 +112,8 @@
       </div><!-- foot-base -->
 
     </footer>
-
-  </div><!-- site-container -->
-
-
+  </div>
+  <!--site-container-->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
