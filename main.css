@@ -390,6 +390,11 @@ body {background: lightsteelblue !important;}
   padding-bottom: 100px;
 }
 
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
   #page-title {
     font-family: 'Nova Round';
     font-size: 3em;
