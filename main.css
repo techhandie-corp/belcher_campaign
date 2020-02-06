@@ -437,6 +437,8 @@ body {background: lightsteelblue !important;}
     color: var(--blueribbon);
   }
 
+  .bullet {margin-left: 10px;}
+
 #bio_footer {
   grid-area: bot;
   grid-row: 3/4;
