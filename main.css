@@ -390,7 +390,7 @@ body {background: lightsteelblue !important;}
   padding-bottom: 100px;
 }
 
-.bio {
+.bio.just {
   display: flex;
   flex-direction: column;
 }
