@@ -396,6 +396,7 @@ body {background: lightsteelblue !important;}
     "pic top top"
     "pic mid mid"
     "bio bot bot";
+  grid-template-rows: 1fr;
   margin: 0 0 60px 30px;
 }
 
