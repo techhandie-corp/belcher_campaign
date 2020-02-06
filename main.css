@@ -418,7 +418,7 @@ body {background: lightsteelblue !important;}
   grid-area: mid;
   grid-row: 2/3;
   grid-column: 2/4;
-  margin: -30px 30px;
+  margin: 0 30px;
 }
 
 #bio_header {
@@ -426,14 +426,14 @@ body {background: lightsteelblue !important;}
   grid-row: 1/2;
   grid-column: 2/4;
   width: 1000px;
-  margin: 0 30px;
+  margin: 0 0-30px 30px;
 }
 
 #bio_footer {
   grid-area: bot;
   grid-row: 3/4;
   grid-column: 2/4;
-  margin: 0 30px;
+  margin: -30px 0 0 30px;
   overflow-wrap: break-word;
 }
 
