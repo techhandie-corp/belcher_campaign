@@ -418,6 +418,7 @@ body {background: lightsteelblue !important;}
   grid-area: mid;
   grid-row: 2/3;
   grid-column: 2/4;
+  margin: 0 10px;
 }
 
 #bio_header {
@@ -425,12 +426,14 @@ body {background: lightsteelblue !important;}
   grid-row: 1/2;
   grid-column: 2/4;
   width: 1000px;
+  margin: 0 10px;
 }
 
 #bio_footer {
   grid-area: bot;
   grid-row: 3/4;
   grid-column: 2/4;
+  margin: 0 10px;
 }
 
 .statement {
@@ -438,6 +441,7 @@ body {background: lightsteelblue !important;}
   font-size: 1.125em;
   line-height: 2;
   color: var(--currant);
+  overflow-wrap: break-word;
 }
 
 .bio_list {
