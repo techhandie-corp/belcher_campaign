@@ -390,10 +390,10 @@ body {background: lightsteelblue !important;}
   padding-bottom: 100px;
 }
 
-.bio.just {
+/*.bio.just {
   display: flex;
   flex-direction: row;
-}
+}*/
 
   #page-title {
     font-family: 'Nova Round';
@@ -404,29 +404,44 @@ body {background: lightsteelblue !important;}
     color: var(--blueribbon);
   }
 
-  #denise img {
+  /*#denise img {
     border: none;
     border-radius: 30px;
     margin: 0 30px 0 30px;
+  }*/
+
+  .d-bio {
+    width: 800px;
+    display: grid;
+    grid-template-areas:
+      "top top top"
+      "mid mid mid"
+      "bot bot bot"
   }
 
-#d-bio {width: 800px;}
 
   .bio_header {
-    margin: 0;
+    gird-area: top;
+    grid-row: 1/2;
+    grid-column: 1/4;
   }
 
-.bio_list {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.0625em;
-  line-height: 1.75;
-  color: var(--blueribbon);
-}
+  .bio_list {
+    grid-area: mid;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.0625em;
+    line-height: 1.75;
+    color: var(--blueribbon);
+  }
 
 .bio_list li {list-style-type: square !important;}
 
 #bio_footer {
-  margin: 0;
+  grid-area: bot;
+  grid-row: 3/4;
+  grid-column: 1/4;
   overflow-wrap: break-word;
 }
 
