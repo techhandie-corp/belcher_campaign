@@ -429,13 +429,12 @@ body {background: lightsteelblue !important;}
     grid-area: mid;
     grid-row: 2/3;
     grid-column: 1/4;
+    /*list-style: square;*/
     font-family: "Open Sans", sans-serif;
     font-size: 1.0625em;
     line-height: 1.75;
     color: var(--blueribbon);
   }
-
-.bio_list li {list-style-type: square !important;}
 
 #bio_footer {
   grid-area: bot;
