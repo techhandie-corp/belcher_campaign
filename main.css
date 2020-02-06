@@ -391,8 +391,7 @@ body {background: lightsteelblue !important;}
 }
 
 .bio.just {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
   #page-title {
