@@ -665,10 +665,6 @@ input[type="textarea"] {
   color: var(--blueribbon);
 }
 
-#platform-content ol {
-  list-style-type: decimal;
-}
-
 #platform-content .head {
   font-family: "Nova Square";
   font-size: 1.5rem;
@@ -677,6 +673,7 @@ input[type="textarea"] {
 #platform-content .items {
   font-size: 1.125rem;
   line-height: 2;
+  list-style-type: decimal;
 }
 
 /*====================Platform End=======================*/
