@@ -666,7 +666,7 @@ input[type="textarea"] {
 }
 
 ol {
-  list-style: start="1";
+  list-style-type: 1;
 }
 
 #platform-content .head {
