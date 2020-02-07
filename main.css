@@ -394,6 +394,7 @@ body {background: lightsteelblue !important;}
 .bio.just {
   display: flex;
   flex-direction: row;
+  padding: 0 0 60px 0;
 }
 
   #page-title {
