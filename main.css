@@ -167,7 +167,7 @@ header {
 }
 
 /*Display the dropdown on hover*/
-#menu ul li a:hover+.hidden, .hidden:hover {
+#menu ul li a:hover+ #menu .hidden, #menu .hidden:hover {
   display: block;
 }
 
