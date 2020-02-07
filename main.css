@@ -10,6 +10,7 @@
   --bluegray: #2f3036;
   --clear: #e7e5e4;
   --cream: #fff6c1;
+  --currant: #120337;
   --granite: #2F3036;
   --kumquat: #ff4d4d;
   --mint: #19c589;
@@ -437,7 +438,10 @@ body {background: lightsteelblue !important;}
     color: var(--blueribbon);
   }
 
-  .bullet {margin: 0 10px 0 0;}
+  .bullet {
+    margin: 0 10px 0 0;
+    color: var(--currant);
+  }
 
 #bio_footer {
   grid-area: bot;
