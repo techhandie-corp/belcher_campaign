@@ -665,7 +665,9 @@ input[type="textarea"] {
   color: var(--blueribbon);
 }
 
-ol {list-style: initial;}
+ol {
+  list-style: start="1";
+}
 
 #platform-content .head {
   font-family: "Nova Square";
