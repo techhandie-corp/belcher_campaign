@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!--Font-Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+
+  <!-- Site Title & Style Source -->
+  <title>Belcher for Council</title>
+  <link rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+
+  <div id="site-container">
+
+    <header>
+      <input type="checkbox" id="show-menu" role="button" />
+      <label for="show-menu" class="show-menu"><i class="fas fa-bars"></i>&nbsp;&nbsp;Menu</label>
+      <ul id="menu">
+        <li><a href="#">Donate</a></li>
+        <li>
+          <a href="#">Meet Denise<span class="up">↑</span><span class="down">↓</span></a>
+          <ul class="hidden">
+            <li><a href="#">The Servant Leader</a></li>
+            <li><a href="#">Active in the Community</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Get Out the Vote<span class="up">↑</span><span class="down">↓</span></a>
+          <ul class="hidden">
+            <li><a href="#">Make a Contribution</a></li>
+            <li><a href="#">Be an Ambassador</a></li>
+            <!--<li><a href="#">Illustration</a></li>-->
+          </ul>
+        </li>
+        <li><a href="#">Platform</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <section id="container">
+      <h1 id="title" class="weighty shine center">Make a Contribution</h1>
+      <div id="contact-form" class="form-body">
+    						<form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
+                  <div class="field-block support">
+                    <input type="checkbox" class="field" name="Campaign_Support" value="Support"> I support the Belcher for Council campaign<br>
+                  </div><!--field block-->
+    							<div class="form-group">
+    								<p class="requires">* required fields</p>
+    								<input type='hidden' class="form-control" name="Source" value="Form Info">
+    								<label for="firstname-input" class="form-label">* First Name: </label>
+    								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
+
+    								<label for="lastname-input" class="form-label">* Last Name: </label>
+    								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
+
+                    <label for="address1-input" class="form-label">* Address1: </label>
+    								<input type="text" pattern="/^\d+\s[A-z]+\s[A-z]+/g" class="form-control" name="Address1" required="true">
+                    <label for="address2-input" class="form-label">&nbsp;&nbsp;Address2: </label>
+    								<input type="text" pattern="/^\d+\s[A-z]+\s[A-z]+/g" class="form-control" name="Address2" required="false">
+                    <label for="city-input" class="form-label">* City: </label>
+    								<input type="text" pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$" class="form-control" name="City" required="true">
+
+                    <label for="state-input" class="form-label">* State: </label>
+                    <input type="text" pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$" class="form-control" name="State" required="true">
+
+                    <label for="zip-input" class="form-label">* Zip Code <i>(5 digits only)</i>: </label>
+    								<input type="text" pattern="^\d{5}$" class="form-control" name="Zip" required="true">
+
+                    <label for="phone-input" class="form-label">* Phone Number <i>(10 digits; no hyphens)</i> :</label>
+    								<input type="text" pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
+
+    								<label for="email-input" class="form-label">* Email Address: </label>
+    								<input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
+
+              <!--Checkboxes-->
+
+    								<div class="field-block">
+    									I am interested in:<br>
+    									<input type="checkbox" class="field" name="interest1" value="Sign"> displaying a campaign lawn sign<br>
+    									<input type="checkbox" class="field" name="interest2" value="Leaflets"> distributing campaign leaflets<br>
+                      <input type="checkbox" class="field" name="interest3" value="Campaign"> participating in "Get Out the Vote!"&nbsp;&nbsp;<span class="dagger">&#8224;</span><br>
+    									<input type="checkbox" class="field" name="interest4" value="Host"> hosting a cottage/listening party<br>
+    									<input type="checkbox" class="field" name="interest5" value="Ambassador"> being a "Block Ambassador"<br>
+    									<input type="checkbox" class="field" name="interest6" value="Volunteer"> volunteering on May 12th Election Day<br>
+    									<input type="checkbox" class="field" name="interest7" value="Other1"> Other<br>
+                      <input type="textarea" class="field" name="interest8" value="Other2"><br>
+    								</div><!-- field-block -->
+                    <p class="just"><span class="dagger">&#8224;</span>&nbsp;participate in postcard, phone, or text campaigning to "Get Out the Vote"</p>
+
+    								<button type="submit" class="btn btn-info btn-lg">Send</button>
+    							</div><!--form-group -->
+    						</form><!-- action -->
+      </div>
+    </section><!--container-->
+
+    <footer id="footer">
+      <ul id="f-menu">
+        <li><a href="#"><i class='fab fa-instagram'></i></a></li>
+        <li><a href="#"><i class='fab fa-twitter'></i></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">The Vote</a></li>
+        <li><a href="#">Donate</a></li>
+      </ul>
+      <div class="footer-base">
+        <p>Copyright &copy; 2020 &nbsp;&nbsp;&nbsp;<a id="masthead" href="#home">Belcher for Council</a>&nbsp;&nbsp;&nbsp;All rights reserved &nbsp;&nbsp;&nbsp;<i>Powered by </i><a id="webmaster" href="https://www.techhandie.com">TechHandie
+            Corporation</a>
+        </p>
+      </div><!-- foot-base -->
+
+    </footer>
+
+  </div><!-- site-container -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
