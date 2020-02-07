@@ -470,13 +470,13 @@ a#masthead:hover, a#webmaster:hover {
 
 #body3 {
   background: var(--softblu) !important;
-}/*#a3a3a3*/
+}/*#a3a3a3*//*var(--bluegray)*/
 
 #title {color: ivory;}
 
 #contact-form {
-  background: var(--bluegray);
-  /* #f2f2f2 */
+  background: var(--softblu);
+  /* #f2f2f2 *//*var(--bluegray)*/
   /*padding-top: 35px;*/
   padding-bottom: 80px;
   width: 500px;
