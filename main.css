@@ -670,10 +670,10 @@ input[type="textarea"] {
   font-size: 1.5rem;
 }
 
-#platform-content .items {
+#platform-content ol.items.just {
   font-size: 1.125rem;
   line-height: 2;
-  list-style-type: decimal;
+  list-style-type: decimal !important;
 }
 
 /*====================Platform End=======================*/
