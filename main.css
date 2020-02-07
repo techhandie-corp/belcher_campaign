@@ -383,7 +383,7 @@ a#masthead:hover, a#webmaster:hover {
 
 /*========================Servant=============================*/
 
-body {background: lightsteelblue !important;}
+#body2 {background: lightsteelblue !important;}
 /*blanchedalmond*/
 
 #denise {
@@ -467,7 +467,8 @@ body {background: lightsteelblue !important;}
 
 
 /*===============Contribute===========================*/
-body {
+
+#body3 {
   background: var(--bluegray) !important;
 }/*#a3a3a3*/
 
@@ -482,7 +483,7 @@ body {
   margin: 0 auto;
 }
 
-#container {margin: 100px auto 50px auto;}
+/*#container {margin: 100px auto 50px auto;}*/
 /*#contact-form.form-body {background: #a3a3a3;}*/
 
 #contact-form .container {
