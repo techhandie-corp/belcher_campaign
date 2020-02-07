@@ -1,7 +1,7 @@
 /****************/
 /*    General   */
 /****************/
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Bitter|Great+Vibes|Nova+Round|Open+Sans|Oswald|Raleway|Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Bitter|Great+Vibes|Nova+Round|Nova+Square|Open+Sans|Oswald|Raleway|Salsa&display=swap');
 
 :root {
   --batter: #ffff80;
@@ -16,6 +16,7 @@
   --mint: #19c589;
   --persimmon: #ff2600;
   --shell: #ff5537;
+  --skyblu: #6585e7;
   --softblu: #18399a;
   --softgray: #f3f3f3;
 }
@@ -188,6 +189,9 @@ input[type=checkbox]+label {
 }
 
 /*=============Content==============*/
+
+#body1 {background: var(--softgray);}
+
 #container {
   margin: 0;
   padding: 0 0 25px 0;
@@ -465,17 +469,19 @@ a#masthead:hover, a#webmaster:hover {
   color: var(--blueribbon);
 }
 
+/*=================Servant End========================*/
 
-/*===============Contribute===========================*/
+
+/*===============Contribute Start====================*/
 
 #body3 {
-  background: var(--softblu) !important;
-}/*#a3a3a3*//*var(--bluegray)*/
+  background: var(--skyblu) !important;
+}/*#a3a3a3 softblu bluegray*/
 
 #title {color: ivory;}
 
 #contact-form {
-  background: var(--softblu);
+  background: var(--skyblu);
   /* #f2f2f2 *//*var(--bluegray)*/
   /*padding-top: 35px;*/
   padding-bottom: 80px;
@@ -633,7 +639,42 @@ input[type="textarea"] {
 
 /*-- Contact-form End --*/
 
-/*===================================================*/
+/*====================Contribute End=====================*/
+
+
+/*====================Platform Start=====================*/
+
+#body4 {background: var(--skyblu);}
+
+#platform-content {
+  font-family: "Architects Daughter";
+  color: var(--currant);
+  margin: 0 70px 0 30px;
+}
+
+#platform-content #title {
+  font-family: "Nova Round";
+  margin: 50px 0 20px 0;
+  color: var(--blueribbon);
+}
+
+#platform-content #subtitle {
+  font-family: "Nova Round";
+  margin: 20px 0 70px 0;
+  color: var(--blueribbon);
+}
+
+#platform-content .head {
+  font-family: "Nova Square";
+  font-size: 1.5rem;
+}
+
+#platform-content .items {
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+/*====================Platform End=======================*/
 
 
 /***************************/
