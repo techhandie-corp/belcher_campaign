@@ -647,6 +647,8 @@ input[type="textarea"] {
 #body4 {background: var(--skyblu);}
 
 #platform-content {
+  font-family: "Architects Daughter";
+  font-size: 1.25rem;
   color: var(--currant);
   margin: 100px 70px 0 30px;
   height: 1100px;
@@ -671,9 +673,7 @@ input[type="textarea"] {
 }
 
 #platform-content ol.items.just {
-  font-family: "Architects Daughter";
-  font-size: 1.25rem;
-  /*font-size: 1.125rem;*/
+  font-size: 1.125rem;
   line-height: 2;
   /*list-style-type: decimal !important;*/
 }
