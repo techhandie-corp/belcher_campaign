@@ -648,6 +648,7 @@ input[type="textarea"] {
 
 #platform-content {
   font-family: "Architects Daughter";
+  font-size: 1.5rem;
   color: var(--currant);
   margin: 100px 70px 0 30px;
   height: 1100px;
