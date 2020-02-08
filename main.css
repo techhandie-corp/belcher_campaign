@@ -676,6 +676,11 @@ input[type="textarea"] {
   /*list-style-type: decimal !important;*/
 }
 
+#platform-content .wrap-item {
+  display: flex;
+  flex-direction: row;
+}
+
 #platform-content .o-bullet {
   margin: 0 30px;
 }
