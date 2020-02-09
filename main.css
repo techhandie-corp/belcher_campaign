@@ -861,7 +861,7 @@ input[type="textarea"] {
 }
 
 #c-contact-form #msg-btn {/*.block form .btn*/
-  background: var(--bluegray);
+  background: var(--blueribbon);
   border: none;
   border-radius: 15px;
   color: var(--softgray);
@@ -870,7 +870,7 @@ input[type="textarea"] {
 }
 
 #c-contact-form #msg-btn:hover {
-  background: var(--skyblu);
+  background: var(--kumquat);
   color: white;
 }
 
