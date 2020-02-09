@@ -49,7 +49,7 @@
   text-align: justify;
 }
 
-/*===============Body===============*/
+/*========================Body===========================*/
 #site-container {
   width: 100vw;
   min-height: 100vh;
@@ -57,7 +57,7 @@
   position: relative;
 }
 
-/*=============Header===============*/
+/*========================Header=========================*/
 header {
   background: var(--blueribbon);
   height: 75px;
@@ -188,7 +188,7 @@ input[type=checkbox]+label {
   display: none;
 }
 
-/*=============Content==============*/
+/*========================Content========================*/
 
 #body1 {background: var(--softgray);}
 
@@ -337,7 +337,7 @@ button a {
   color: navy;
 }
 
-/*====================================================*/
+/*=======================================================*/
 footer {
   background: var(--blueribbon);
   width: 100%;
@@ -385,7 +385,7 @@ a#masthead:hover, a#webmaster:hover {
 }
 
 
-/*========================Servant=============================*/
+/*======================Servant==========================*/
 
 #body2 {background: lightsteelblue !important;}
 /*blanchedalmond*/
@@ -469,10 +469,10 @@ a#masthead:hover, a#webmaster:hover {
   color: var(--blueribbon);
 }
 
-/*=================Servant End========================*/
+/*===================Servant End=========================*/
 
 
-/*===============Contribute Start====================*/
+/*==================Contribute Start=====================*/
 
 #body3 {
   background: var(--skyblu) !important;
@@ -692,7 +692,31 @@ input[type="textarea"] {
   margin: 0 30px;
 }
 
-/*====================Platform End=======================*/
+/*======================Platform End=====================*/
+
+
+/*===================Ambassador Start====================*/
+
+#body5 {background: transparent;}
+
+#ambassador-content {
+  font-family: "Nova Square";
+  font-size: 1.25rem;
+  color: var(--currant);
+  margin: 100px 70px 0 30px;
+}
+
+#ambassador-content .head {
+  font-family: "Nova Square";
+  font-size: 1.5rem;
+  margin: 0 0 20px 25px;
+}
+
+/*#ambassador-content*/
+
+
+
+/*==================Ambassador End=======================*/
 
 
 /***************************/
@@ -718,7 +742,7 @@ input[type="textarea"] {
   }
 }
 
-/*=============================================*/
+/*=======================================================*/
 /*For Phones*/
 @media only screen and (max-width : 760px) {
   header {
@@ -765,7 +789,7 @@ input[type="textarea"] {
     display: block;
   }
 
-  /*===================================================*/
+  /*=====================================================*/
   #title {
     font-size: 1.9em;
     text-align: left;
