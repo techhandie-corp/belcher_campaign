@@ -644,7 +644,7 @@ input[type="textarea"] {
 
 /*====================Platform Start=====================*/
 
-#body4 {background: var(--skyblu);}
+#body4 {background: var(--softgray);}/*skyblu*/
 
 #platform-content {
   font-family: "Architects Daughter";
