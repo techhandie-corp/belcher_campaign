@@ -861,10 +861,10 @@ input[type="textarea"] {
 }
 
 #c-contact-form .block form .btn {
-  background: var(--softgray);
+  background: var(--bluegray);
   border: none;
   border-radius: 15px;
-  color: var(--coal);
+  color: var(--softgray);
   width: 150px;
   height: 50px;
 }
