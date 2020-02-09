@@ -860,7 +860,7 @@ input[type="textarea"] {
   padding-bottom: 35px;
 }
 
-#c-contact-form .block form .btn {
+#c-contact-form #msg-btn {/*.block form .btn*/
   background: var(--bluegray);
   border: none;
   border-radius: 15px;
@@ -869,7 +869,7 @@ input[type="textarea"] {
   height: 50px;
 }
 
-#c-contact-form .block form .btn:hover {
+#c-contact-form #msg-btn:hover {
   background: var(--skyblu);
   color: white;
 }
