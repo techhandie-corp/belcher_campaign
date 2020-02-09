@@ -775,12 +775,12 @@ input[type="textarea"] {
 }
 
 #global-header .block p a {
-  color: var(--kumquat);
+  color: var(--batter);
   text-decoration: underline;
 }
 
 #global-header .block p a:hover {
-  color: var(--skyblu);/*426bca*/
+  color: var(--kumquat);/*426bca*/
   font-style: italic;
 }
 
@@ -791,8 +791,9 @@ input[type="textarea"] {
 #c-contact-form {
   background: var(--skyblu);
   /* #f2f2f2 */
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 40px;
+  /*padding-bottom: 35px;*/
+  height: 700px;
 }
 
 #c-contact-form p {
@@ -867,6 +868,7 @@ input[type="textarea"] {
   color: var(--softgray);
   width: 150px;
   height: 50px;
+  margin: 10px 0 20px 0;
 }
 
 #c-contact-form #msg-btn:hover {
