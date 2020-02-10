@@ -942,7 +942,9 @@ input[type="textarea"] {
 /*===================Active Start========================*/
 
   #gallery {
-    margin: 0 auto;
+    margin: -50px 0 0 0;
+    padding: 100px 0 50px 0;
+    background: var(--softblu);
   }
 
   #activities {
@@ -951,6 +953,7 @@ input[type="textarea"] {
       "row1 row1"
       "row2 row2";
     grid-column-gap: auto;
+    grid-row-gap: auto;
   }
 
   .g-row1-1 {
