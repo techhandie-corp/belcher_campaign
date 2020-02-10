@@ -750,7 +750,7 @@ input[type="textarea"] {
 }
 
 #global-header .block {
-  color: var(--batter);
+  color: lemonchiffon;/*var(--batter)*/
   /* #E3E3E4 */
   margin: 0 auto;
   padding-left: 90px;
