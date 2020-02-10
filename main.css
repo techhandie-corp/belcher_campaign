@@ -939,6 +939,48 @@ input[type="textarea"] {
 /*Contact End*/
 
 
+/*===================Active Start========================*/
+
+  #gallery {
+    margin: 0 auto;
+  }
+
+  #activities {
+    display: grid;
+    grid-template-areas:
+      "row1 row1"
+      "row2 row2";
+  }
+
+  .g-row1-1 {
+    grid-area: row1;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  .g-row1-2 {
+    grid-area: row1;
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+
+  .g-row2-1 {
+    grid-area: row1;
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .g-row2-2 {
+    grid-area: row1;
+    grid-row: 3/4;
+    grid-column: 3/4;
+  }
+
+
+
+/*======================Active End=======================*/
+
+
 /***************************/
 /*    Responsive Styling   */
 /***************************/
