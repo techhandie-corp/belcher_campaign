@@ -721,7 +721,15 @@ input[type="textarea"] {
 #ambassador-content #we-need .o-item {
 }
 
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
+.issue {
+  font-size: 1.125rem;
+}
 
 /*==================Ambassador End=======================*/
 
