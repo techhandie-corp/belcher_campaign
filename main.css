@@ -703,7 +703,8 @@ input[type="textarea"] {
   font-family: "Nova Square";
   font-size: 1.25rem;
   color: var(--currant);
-  margin: 100px 70px 0 30px;
+  margin: 50px 70px 0 30px;
+  height: 850px;
 }
 
 #ambassador-content .head {
