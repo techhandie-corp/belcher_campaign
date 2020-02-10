@@ -713,6 +713,11 @@ input[type="textarea"] {
   margin: 0 0 20px 25px;
 }
 
+#ambassador-content #we-need .wrap-item {
+  display: flex;
+  flex-direction: row;
+}
+
 #ambassador-content #we-need .o-item {
   width: 75px;
 }
