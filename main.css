@@ -980,6 +980,9 @@ input[type="textarea"] {
     grid-column: 3/4;
   }
 
+.g-row1-2,.g-row2-1,.g-row2-2 {
+  width: 90%;
+}
 
 
 /*======================Active End=======================*/
