@@ -933,10 +933,10 @@ input[type="textarea"] {
   padding-right: 10px;
 }
 
-/*-- Contact-Page End --*/
+/*-- Contact-Form End --*/
 
 
-/*Contact End*/
+/*======================Contact End======================*/
 
 
 /*===================Active Start========================*/
@@ -950,11 +950,14 @@ input[type="textarea"] {
   #activities {
     display: grid;
     grid-template-areas:
-      "row1 row1"
-      "row2 row2";
+      "left row1 row1 right"
+      "left row2 row2 right";
+    grid-template-columns: 10% 25% 25% 10%;
     grid-column-gap: auto;
     grid-row-gap: auto;
   }
+
+
 
   .g-row1-1 {
     grid-area: row1;
