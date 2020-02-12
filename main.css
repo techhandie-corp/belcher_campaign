@@ -973,12 +973,12 @@ input[type="textarea"] {
     background: rgb(60,60,60);
     background: rgba(60,60,60,0.3);/*60,60,60*/
     top: 0;
-    padding-top: 20%;
+    /* padding-top: 20%;
     padding-bottom: 60%;
-    padding-left: 20%;
-    font-size: 3em;
+    padding-left: 20%; */
+    font-size: 2em;
     font-weight: 500;
-    color: gold;
+    color: var(--persimmon);
     z-index: 1000;
     /* margin: 40% 0 40% 0; */
           /* border: 2px solid goldenrod; */
