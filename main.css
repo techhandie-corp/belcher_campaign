@@ -947,6 +947,10 @@ input[type="textarea"] {
     background: var(--softblu);
   }
 
+  #spotlight {
+    padding: 0 0 30px 0;
+}
+
   /* Make the image fully responsive */
     .carousel-inner .image img {
         width: 100%;
