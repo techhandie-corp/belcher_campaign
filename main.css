@@ -972,7 +972,7 @@ input[type="textarea"] {
     width: 100%;
     background: rgb(60,60,60);
     background: rgba(60,60,60,0.3);/*60,60,60*/
-    top: 0;
+    bottom: 0;
     /* padding-top: 20%;
     padding-bottom: 60%;
     padding-left: 20%; */
