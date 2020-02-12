@@ -948,10 +948,57 @@ input[type="textarea"] {
     height: 1000px;
   }
 
-  #spotlight {
-    padding: 0 0 30px 0;
-}
+  #activities {
+    display: grid;
+    grid-template-areas:
+    "left buffertop right"
+    "left carousel right"
+    "left bufferbot right";
+    grid-template-columns: 10% 70% 10%;
+    grid-column-gap: auto;
+    grid-template-rows: auto;
+  }
 
+  .top {
+    grid-area: buffertop;
+    grid-row: 1/1;
+    grid-column: 2/4;
+  }
+
+  .left {
+    grid-area: left;
+    grid-row: 1/5;
+    grd-column: 1/2;
+  }
+
+  #spotlight {
+    grid-area: carousel;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    /*padding: 0 0 30px 0;*/
+  }
+
+  .carousel-indicators {
+    grid-area: indicators;
+    grid-row: 3/4;
+    grid-column: 2/4;
+  }
+
+  .right {
+    grid-area: right;
+    grid-row: 1/5;
+    grid-column: 3/4;
+  }
+
+  .bottom {
+    grid-area: bufferbot;
+    grid-row: 4/5;
+    grid-column: 2/4;
+  }
+
+
+
+/*=================================================================*/
   /* Make the image fully responsive */
     .carousel-inner .image img {
         width: 100%;
@@ -989,9 +1036,7 @@ input[type="textarea"] {
           /* border: 2px solid goldenrod; */
   }
 
-  .carousel-indicators {
-    padding: 20px 0;
-  }
+
 
 /*======================Active End=======================*/
 
