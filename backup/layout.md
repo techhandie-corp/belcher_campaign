@@ -7,22 +7,24 @@
 
 ----------
 
-<h3 style="text-decoration:underline;">CSS Map</h3>
-<table style="padding:2px;border:2px solid indigo;color:indigo;border-collapse:collapse">
-	<theader style="vertical-align:middle;">
-		<th style="text-align:left;border:1px dotted indigo;">No.</th>
-		<th style="text-align:left;border:1px dotted indigo;">Item</th>
-		<th style="text-align:center;border: 1px dotted indigo;">Location</th>
-	</theader>
+<h2 style="text-decoration:double;color:violet;">CSS Map</h2>
+<table style="padding:2px;border:1px solid indigo;color:indigo;border-collapse:collapse">
+	<thead style="background-color:lavender;border-bottom:1px solid indigo;">
+		<tr style="vertical-align:middle;">
+			<th style="text-align:left;border:1px dotted indigo;">No.</th>
+			<th style="text-align:left;border:1px dotted indigo;">Item</th>
+			<th style="text-align:center;border: 1px dotted indigo;">Location</th>
+		</tr>
+	</thead>
 	<tbody>
 		<tr vertical-align:middle;">
 			<td style="text-align:left;border: 1px dotted indigo;">1</td>
-			<td style="text-align:left;border: 1px dotted indigo;">General</td>
-			<td style="text-align:center;border: 1px dotted indigo;">1-49</td>
+			<td style="text-align:left;border: 1px dotted indigo;">Content</td>
+			<td style="text-align:center;border: 1px dotted indigo;">50-44</td>
 		</tr>
 		<tr vertical-align:middle;">
 			<td style="text-align:left;border: 1px dotted indigo;">2</td>
-			<td style="text-align:left;border: 1px dotted indigo;">General</td>
+			<td style="text-align:left;border: 1px dotted indigo;">Content</td>
 			<td style="text-align:center;border: 1px dotted indigo;">1-49</td>
 		</tr>
 		<tr vertical-align:middle;">

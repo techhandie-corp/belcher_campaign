@@ -943,7 +943,7 @@ input[type="textarea"] {
 
   #gallery {
     margin: -50px 0 0 0;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 150px 0;
     background: var(--softblu);
   }
 
@@ -951,6 +951,14 @@ input[type="textarea"] {
     .carousel-inner img {
         width: 100%;
         height: auto;
+    }
+
+    .rotate180 {
+      -webkit-transform:rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
     }
 
   #spotlight .carousel-inner .carousel-item.active .image {
