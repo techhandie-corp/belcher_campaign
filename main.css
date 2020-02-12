@@ -948,7 +948,7 @@ input[type="textarea"] {
   }
 
   /* Make the image fully responsive */
-    .carousel-inner img {
+    .carousel-inner .image img {
         width: 100%;
         height: auto;
     }
@@ -961,14 +961,13 @@ input[type="textarea"] {
       transform: rotate(180deg);
     }
 
-  #spotlight .carousel-inner .carousel-item.active .image {
+  #spotlight .carousel-item .image {
     position: relative;
     width: 100%;
     height: 100vh;
   }
 
-  #spotlight .carousel-inner .carousel-item.active .image
-  p.content {/*innerDiv*/
+  #spotlight .carousel-item .content {/*innerDiv*/
     position: absolute;
     width: 100%;
     background: rgb(60,60,60);
@@ -983,6 +982,10 @@ input[type="textarea"] {
     z-index: 1000;
     /* margin: 40% 0 40% 0; */
           /* border: 2px solid goldenrod; */
+  }
+
+  .carousel-indicators {
+    padding: 20px 0;
   }
 
 /*======================Active End=======================*/
