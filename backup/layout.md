@@ -75,3 +75,9 @@
 
 ----------
 <p style="font-size:1rem; font-weight:600;color:indigo;">Close</p>
+
+----------
+
+<!--Background Excerpt for Image Caption-->
+<!-- background: rgb(60,60,60);
+background: rgba(60,60,60,0.3);/*60,60,60*/ -->
