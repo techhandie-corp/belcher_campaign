@@ -79,5 +79,7 @@
 ----------
 
 <!--Background Excerpt for Image Caption-->
-<!-- background: rgb(60,60,60);
-background: rgba(60,60,60,0.3);/*60,60,60*/ -->
+<!--
+background: rgb(60,60,60);
+background: rgba(60,60,60,0.3);/*60,60,60*/
+-->
