@@ -943,21 +943,22 @@ input[type="textarea"] {
 
 #gallery {
   margin: -50px 0 0 0;
-  padding: 100px 0 50px 0;
+  padding: 80px 0 150px 0;
   background: var(--softblu);
 }
 
 #activities {
   display: grid;
   grid-template-areas:
-    "left top top right"
-    "left row1 row1 right"
-    "left row2 row2 right"
-    "left bottom bottom right";
-  grid-template-columns: 10% 35% 35% 10%;
+    "left top top top right"
+    "left row1 row1 row1 right"
+    "left row2 row2 row2 right"
+    "left bottom bottom bottom right";
+  grid-template-columns: 10% 25% 25% 25% 10%;
   grid-column-gap: 1fr;
   grid-row-gap: auto;
   height: 900px;
+  margin: 0 0 0 10%;
 }
 
 .top {
