@@ -954,9 +954,10 @@ input[type="textarea"] {
     "left row1 row1 right"
     "left row2 row2 right"
     "left bottom bottom right";
-  grid-template-columns: 10% 25% 25% 10%;
-  grid-column-gap: auto;
+  grid-template-columns: 10% 35% 35% 10%;
+  grid-column-gap: 1fr;
   grid-row-gap: auto;
+  height: 900px;
 }
 
 .top {
@@ -979,7 +980,7 @@ input[type="textarea"] {
 
 .g-row1-2 {
   grid-area: row1;
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 3/4;
 }
 
