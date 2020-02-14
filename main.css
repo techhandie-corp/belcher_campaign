@@ -962,9 +962,9 @@ input[type="textarea"] {
 }
 
 .top {
-   grid-area: buffertop;
+   grid-area: top;
    grid-row: 1/2;
-   grid-column: 2/4;
+   grid-column: 2/5;
  }
 
  .left {
@@ -985,6 +985,12 @@ input[type="textarea"] {
   grid-column: 3/4;
 }
 
+  .g-row1-3 {
+    grid-area: row1;
+    grid-row: 2/3;
+    grid-column: 4/5;
+  }
+
 .g-row2-1 {
   grid-area: row2;
   grid-row: 3/4;
@@ -997,11 +1003,16 @@ input[type="textarea"] {
   grid-column: 3/4;
 }
 
+.g-row2-3 {
+  grid-area: row2;
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
 
 .right {
     grid-area: right;
     grid-row: 1/5;
-    grid-column: 3/4;
+    grid-column: 5/6;
   }
 
   .bottom {
