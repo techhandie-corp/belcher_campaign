@@ -1048,7 +1048,7 @@ input[type="textarea"] {
     /*height: 100vh;*/
   }
 
-  #spotlight .carousel-item .content {/*innerDiv*/
+  #activities .content {/*innerDiv*/
     display: table-row;
     vertical-align: middle;
     position: absolute;
