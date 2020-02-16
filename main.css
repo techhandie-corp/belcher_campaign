@@ -955,7 +955,7 @@ input[type="textarea"] {
     "left row2 row2 row2 right"
     "left bottom bottom bottom right";
   grid-template-columns: 10% 25% 25% 25% 10%;
-  grid-column-gap: 10%;
+  grid-column-gap: 5%;
   grid-row-gap: auto;
   height: 900px;
   margin: 0 0 0 10%;
