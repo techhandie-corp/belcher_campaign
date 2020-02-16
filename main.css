@@ -1052,8 +1052,6 @@ input[type="textarea"] {
     display: table-cell;
     vertical-align: middle;
     position: absolute;
-    background: rgb(60,60,60);
-    background: rgba(60,60,60,0.3);
     font-size: 1rem;
     font-weight: 500;
     color: var(--persimmon);
@@ -1063,6 +1061,7 @@ input[type="textarea"] {
     white-space: -pre-line;     /* Opera <7 */
     white-space: -o-pre-line;   /* Opera 7 */
     word-wrap: break-all;      /* IE */
+    width: 300px;
   }
 
 
