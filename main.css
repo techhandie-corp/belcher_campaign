@@ -968,9 +968,10 @@ input[type="textarea"] {
  }
 
 #activities  #title {
-  font-family: "Open Sans";
+  font-family: "Nova Square";
   font-size: 2rem;
   font-weight: 600;
+  color: var(--persimmon);
 }
 
  .left {
