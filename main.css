@@ -944,7 +944,7 @@ input[type="textarea"] {
 #gallery {
   margin: -50px 0 0 0;
   padding: 80px 0 150px 0;
-  background: var(--softblu);
+  background: transparent;/*var(--softblu)*/
 }
 
 #activities {
@@ -955,7 +955,7 @@ input[type="textarea"] {
     "left row2 row2 row2 right"
     "left bottom bottom bottom right";
   grid-template-columns: 10% 25% 25% 25% 10%;
-  grid-column-gap: 1fr;
+  grid-column-gap: 10%;
   grid-row-gap: auto;
   height: 900px;
   margin: 0 0 0 10%;
