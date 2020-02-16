@@ -1049,19 +1049,20 @@ input[type="textarea"] {
   }
 
   #activities .content {/*innerDiv*/
-    display: table-row;
+    display: table-cell;
     vertical-align: middle;
     position: absolute;
-    width: 100%;
-    bottom: 0;
     background: rgb(60,60,60);
     background: rgba(60,60,60,0.3);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--persimmon);
     z-index: 1000;
-    /* margin: 40% 0 40% 0; */
-          /* border: 2px solid goldenrod; */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
   }
 
 
