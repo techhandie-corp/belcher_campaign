@@ -967,6 +967,12 @@ input[type="textarea"] {
    grid-column: 2/5;
  }
 
+#activities  #title {
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-weight: 600;
+}
+
  .left {
    grid-area: left;
    grid-row: 1/5;
