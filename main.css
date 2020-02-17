@@ -953,6 +953,7 @@ input[type="textarea"] {
     "left top top top right"
     "left row1 row1 row1 right"
     "left row2 row2 row2 right"
+    "left row3 row3 row3 right"
     "left bottom bottom bottom right";
   grid-template-columns: auto;
   grid-column-gap: auto;
@@ -977,7 +978,7 @@ input[type="textarea"] {
 
  .left {
    grid-area: left;
-   grid-row: 1/5;
+   grid-row: 1/6;
    grd-column: 1/2;
  }
 
@@ -1017,16 +1018,34 @@ input[type="textarea"] {
   grid-column: 4/5;
 }
 
+.g-row3-1 {
+  grid-area: row3;
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+.g-row3-2 {
+  grid-area: row3;
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+.g-row3-3 {
+  grid-area: row3;
+  grid-row: 4/5;
+  grid-column: 4/5;
+}
+
 .right {
     grid-area: right;
-    grid-row: 1/5;
+    grid-row: 1/6;
     grid-column: 5/6;
   }
 
   .bottom {
     grid-area: bufferbot;
-    grid-row: 4/5;
-    grid-column: 2/4;
+    grid-row: 5/6;
+    grid-column: 2/5;
   }
 
 
