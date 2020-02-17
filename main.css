@@ -958,7 +958,7 @@ input[type="textarea"] {
   grid-template-columns: auto;
   grid-column-gap: auto;
   grid-row-gap: auto;
-  height: 900px;
+  height: 1000px;
   margin: 0 0 0 10%;
 }
 
