@@ -969,7 +969,7 @@ input[type="textarea"] {
  }
 
 #activities  #title {
-  font-family: "Nova Square";
+  font-family: "Nova Round";
   font-size: 2rem;
   font-weight: 600;
   color: var(--persimmon);
@@ -1057,15 +1057,6 @@ input[type="textarea"] {
 
 /*=================================================================*/
 
-  .carousel-item {
-    height: 820px;
-  }
-
-  /* Make the image fully responsive */
-    .carousel-inner .image img {
-        width: 100%;
-        height: auto;
-    }
 
     .rotate180 {
       -webkit-transform:rotate(180deg);
@@ -1075,7 +1066,7 @@ input[type="textarea"] {
       transform: rotate(180deg);
     }
 
-  #activities .carousel-item .image {
+  #activities .image {
     position: relative;
     width: 100%;
     /*height: 100vh;*/
