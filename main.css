@@ -1049,7 +1049,10 @@ input[type="textarea"] {
     font-family: "Nova Round";
   }
 
-.dagger_note {color: var(--persimmon);}
+.dagger_note {
+  color: var(--persimmon);
+  margin: 1px 0 0 0;
+}
 
 
 
