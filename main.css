@@ -8,9 +8,11 @@
   --blu: #00004d;
   --blueribbon: rgb(23, 37, 80);
   --bluegray: #2f3036;
+  --clay: #CF8062;
   --clear: #e7e5e4;
   --cream: #fff6c1;
   --currant: #120337;
+  --eggplant: #0d0d26;
   --granite: #2F3036;
   --kumquat: #ff4d4d;
   --mint: #19c589;
@@ -941,6 +943,8 @@ input[type="textarea"] {
 
 /*===================Active Start========================*/
 
+#body7 {background: var(--clay);}
+
 #gallery {
   margin: -50px 0 0 -70px;
   padding: 80px 0 100px 0;
@@ -972,7 +976,7 @@ input[type="textarea"] {
   font-family: "Nova Round";
   font-size: 2rem;
   font-weight: 600;
-  color: var(--persimmon);
+  color: var(--eggplant);
   margin: -30px 0 0 0;
 }
 
@@ -1050,7 +1054,7 @@ input[type="textarea"] {
   }
 
 .dagger_note {
-  color: var(--persimmon);
+  color: var(--cream);
 }
 
 
@@ -1079,7 +1083,7 @@ input[type="textarea"] {
     font-family: "Salsa";
     font-size: 1rem;
     font-weight: 500;
-    color: var(--persimmon);
+    color: var(--eggplant);
     z-index: 1000;
     white-space: pre-line;      /* CSS3 */
     white-space: -moz-pre-line; /* Firefox */
@@ -1090,8 +1094,71 @@ input[type="textarea"] {
   }
 
 
-
 /*======================Active End=======================*/
+
+
+/*======================Donate Start=======================*/
+
+#body8 {background: var(--bluegray);}
+
+#donation .statement {
+  display: grid;
+  grid-template-columns: 5%[start-g] 18% 18% 18% 18% 18% 5%[end-g];
+  grid-template-areas:
+    "start-g heading1 heading1 heading1 heading1 heading1 end-g"
+    "start-g heading2 heading2 heading2 heading2 heading2 end-g"
+    "start-g content content content content content end-g"
+    "start-g pay pay pay pay pay end-g";
+  color: white;
+  padding-top: 30px;
+}
+
+.title {
+  grid-area: heading1;
+  font-family: 'Nova Round';
+  font-size: 3.25em;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+}
+
+.subtitle {
+  grid-area: heading2;
+  font-family: 'Open Sans';
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  padding: 20px 0;
+}
+
+p.custom {
+  grid-area: content;
+  padding: 20px 0;
+  font-family: 'Lora';
+  font-size: 1.5em;
+  line-height: 1.75;/* 1.5 */
+  font-style: oblique;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.payment {
+  grid-column: pay;
+  padding: 3px 0 30px 0;
+  text-align: center;
+}
+
+.l-gutter {grid-area: start-g;}
+
+.r-gutter {grid-area: end-g;}
+
+
+
+
+/*======================Donate End=======================*/
 
 
 /***************************/
