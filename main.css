@@ -1118,7 +1118,7 @@ input[type="textarea"] {
   padding-top: 30px;
 }
 
-.title {
+#donation .title {
   grid-area: heading1;
   grid-row: 1/2;
   grid-column: 2/3;
@@ -1130,7 +1130,7 @@ input[type="textarea"] {
   color: white;
 }
 
-.subtitle {
+#donation .subtitle {
   grid-area: heading2;
   grid-row: 2/3;
   grid-column: 2/3;
@@ -1143,25 +1143,18 @@ input[type="textarea"] {
   padding: 20px 0;
 }
 
-p.custom {
+#donation .content {
   grid-area: content;
   grid-row: 3/4;
   grid-column: 2/3;
   padding: 20px 0;
-  font-family: 'Bitter';
-  font-size: 1.5rem;
-  line-height: 1.75;/* 1.5 */
-  /*font-style: oblique;*/
-  font-weight: 400;
-  text-align: justify;
 }
 
-.payment {
+#donation .payment {
   grid-area: pay;
   grid-row: 4/5;
   grid-column: 2/3;
   padding: 3px 0 30px 0;
-  text-align: center;
 }
 
 .l-gutter {
@@ -1174,6 +1167,14 @@ p.custom {
   grid-area: end-g;
   grid-row: 1/5;
   grid-column: 3/4;
+}
+
+p.custom {
+  font-family: 'Bitter';
+  font-size: 1.5rem;
+  line-height: 1.75;/* 1.5 */
+  /*font-style: oblique;*/
+  font-weight: 400;
 }
 
 .custom_button {
