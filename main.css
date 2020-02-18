@@ -1193,7 +1193,7 @@ p.custom {
   color: navy;
 }
 
-#donation a:hover {
+#donation a#custom_button:hover {
   background: var(--eggplant);
   color: var(--cream);
 }
