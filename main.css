@@ -1048,7 +1048,7 @@ input[type="textarea"] {
     grid-column: 2/5;
   }
 
-#dagger_note {color: var(--persimmon);}
+.dagger_note {color: var(--persimmon);}
 
 
 
