@@ -1046,6 +1046,7 @@ input[type="textarea"] {
     grid-area: bufferbot;
     grid-row: 5/6;
     grid-column: 2/5;
+    font-family: "Nova Round";
   }
 
 .dagger_note {color: var(--persimmon);}
