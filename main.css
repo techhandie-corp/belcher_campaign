@@ -1178,10 +1178,20 @@ p.custom {
 }
 
 .custom_button {
-  background: var(--clay);
-  color: indigo;
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: 1px solid midnightblue;
+  border-radius: 20px;
+  background: coral;
 }
 
+.custm_button a {
+  text-decoration: none !important;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: navy;
+}
 
 /*======================Donate End=======================*/
 
