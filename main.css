@@ -1101,6 +1101,8 @@ input[type="textarea"] {
 
 #body8 {background: var(--bluegray);}
 
+#donation {height: 800px;}
+
 #donation .statement {
   display: grid;
   grid-template-columns: 5%[start-g] 18% 18% 18% 18% 18% 5%[end-g];
@@ -1109,14 +1111,14 @@ input[type="textarea"] {
     "start-g heading2 heading2 heading2 heading2 heading2 end-g"
     "start-g content content content content content end-g"
     "start-g pay pay pay pay pay end-g";
-  color: white;
+  color: var(--cream);
   padding-top: 30px;
 }
 
 .title {
   grid-area: heading1;
-  font-family: 'Nova Round';
-  font-size: 3.25em;
+  font-family: 'Nova Square';
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
@@ -1126,7 +1128,7 @@ input[type="textarea"] {
 .subtitle {
   grid-area: heading2;
   font-family: 'Open Sans';
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 600;
   color: white;
   font-style: oblique;
@@ -1137,10 +1139,10 @@ input[type="textarea"] {
 p.custom {
   grid-area: content;
   padding: 20px 0;
-  font-family: 'Lora';
-  font-size: 1.5em;
+  font-family: 'Bitter';
+  font-size: 1.5rem;
   line-height: 1.75;/* 1.5 */
-  font-style: oblique;
+  /*font-style: oblique;*/
   font-weight: 400;
   text-align: justify;
 }
