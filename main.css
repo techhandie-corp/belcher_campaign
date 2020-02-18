@@ -1105,7 +1105,7 @@ input[type="textarea"] {
 
 #donation .statement {
   display: grid;
-  grid-template-columns: 10%[start-g] 90% 10%[end-g];
+  grid-template-columns: 10% 80% 10%;
   grid-template-rows: auto;
   grid-template-areas:
     "start-g heading1 end-g"
