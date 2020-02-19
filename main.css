@@ -1134,7 +1134,7 @@ input[type="textarea"] {
   grid-area: heading2;
   grid-row: 2/3;
   grid-column: 2/3;
-  font-family: 'Open Sans';
+  font-family: 'Architects Daughter';
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--eggplant);
@@ -1171,7 +1171,7 @@ input[type="textarea"] {
 }
 
 p.custom {
-  font-family: 'Architects Daughter';
+  font-family: 'Bitter';
   font-size: 1.5rem;
   line-height: 1.75;/* 1.5 */
   /*font-style: oblique;*/
