@@ -972,7 +972,7 @@ input[type="textarea"] {
    grid-column: 2/5;
  }
 
-#activities  #title {
+#activities #title {
   font-family: "Nova Round";
   font-size: 2rem;
   font-weight: 600;
@@ -1054,7 +1054,7 @@ input[type="textarea"] {
   }
 
 .dagger_note {
-  color: var(--cream);
+  color: var(--persimmon);
 }
 
 
