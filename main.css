@@ -1138,7 +1138,7 @@ input[type="textarea"] {
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--eggplant);
-  font-style: oblique;
+  /*font-style: oblique;*/
   text-align: center;
   padding: 20px 0;
 }
