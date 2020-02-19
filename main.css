@@ -341,7 +341,9 @@ button a {
   color: navy;
 }
 
-/*=======================================================*/
+
+/*========================Footer Start==========================*/
+
 footer {
   background: var(--blueribbon);
   width: 100%;
@@ -387,6 +389,8 @@ a#masthead, a#webmaster {
 a#masthead:hover, a#webmaster:hover {
   color: tomato;
 }
+
+/*=====================Footer End========================*/
 
 
 /*======================Servant==========================*/
@@ -580,17 +584,17 @@ a#masthead:hover, a#webmaster:hover {
 }
 
 #contact-form  form .btn {
-  background: var(--softgray);
+  background: var(--blueribbon);
   border: none;
   border-radius: 15px;
-  color: var(--coal);
+  color: var(--cream);
   width: 150px;
   height: 50px;
 }
 
 #contact-form  form .btn:hover {
-  background: #428bca;
-  color: white;
+  background: coral;
+  color: vaar(--eggplant);
 }
 
 #contact-form .info-title {
@@ -699,11 +703,11 @@ input[type="textarea"] {
 /*======================Platform End=====================*/
 
 
-/*===================Ambassador Start====================*/
+/*===================Issues Start====================*/
 
 #body5 {background: transparent;}
 
-#ambassador-content {
+#issues-content {
   font-family: "Nova Square";
   font-size: 1.25rem;
   color: var(--currant);
@@ -711,12 +715,12 @@ input[type="textarea"] {
   height: 1000px;
 }
 
-#ambassador-content #title {
+#issues-content #title {
   color:var(--blu);
   margin: 100px 0 30px 0;
 }
 
-#ambassador-content .salute {
+#issues-content .salute {
   font-family: "Nova Square";
   font-size: 1.5rem;
   margin: 0 0 20px 0;
@@ -740,15 +744,41 @@ input[type="textarea"] {
   color: var(--persimmon);
 }
 
-#ambassador-content #we-need .wrap-item {
+#issues-content #we-need .wrap-item {
   display: flex;
   flex-direction: row;
 }
 
-#ambassador-content #we-need .o-item {
+/*==================Issues End=======================*/
+
+
+/*===================Ambassador Start====================*/
+
+#body5 {background: transparent;}
+
+#ambassador-content {
+  font-family: "Nova Square";
+  font-size: 1.25rem;
+  color: var(--currant);
+  margin: 50px 70px 0 30px;
+  height: 1000px;
 }
 
+#ambassador-content #title {
+  color:var(--blu);
+  margin: 100px 0 30px 0;
+}
 
+#ambassador-content .salute {
+  font-family: "Nova Square";
+  font-size: 1.5rem;
+  margin: 0 0 20px 0;
+}
+
+#ambassador-content #ambassador-items .wrap-item {
+  display: flex;
+  flex-direction: row;
+}
 
 /*==================Ambassador End=======================*/
 
