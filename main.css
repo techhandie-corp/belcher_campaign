@@ -1101,7 +1101,10 @@ input[type="textarea"] {
 
 #body8 {background: lightsteelblue;}
 
-#donation {height: 800px;}
+#donation {
+  height: 800px;
+  padding: 40px 0 0 0;
+}
 
 #donation .statement {
   display: grid;
