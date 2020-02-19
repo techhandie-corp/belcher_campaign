@@ -486,6 +486,11 @@ a#masthead:hover, a#webmaster:hover {
   background: var(--skyblu) !important;
 }/*#a3a3a3 softblu bluegray*/
 
+#contribution {
+  margin: 0;
+  padding: 50px 0 25px 0;
+}
+
 #title {color: ivory;}
 
 #contact-form {
@@ -550,23 +555,6 @@ a#masthead:hover, a#webmaster:hover {
 }
 
 #contact-form #contact1 {margin-bottom: 20px;}
-
-#contact-form button.btn {
-  width: 180px !important;
-  height: 60px !important;
-  background: #47424C !important;
-  border-radius: 12px;
-  border: none;
-  color: white !important;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.0625em;
-}
-
-#contact-form button.btn:hover {
-  background-color: #426bca !important;
-  color: pink  !important;
-  font-style: italic;
-}
 
 #contact-form form .field-block {
   color: white;
@@ -759,8 +747,9 @@ input[type="textarea"] {
 #ambassador-content {
   font-family: "Nova Square";
   font-size: 1.25rem;
-  color: var(--currant);
+  color: var(--blu);
   margin: 50px 70px 0 30px;
+  padding: 30px 0 0 0;
   height: 1000px;
 }
 
@@ -775,9 +764,14 @@ input[type="textarea"] {
   margin: 0 0 20px 0;
 }
 
+#ambassador-content .text {
+  line-height: 1.75;
+}
+
 #ambassador-content #ambassador-items .wrap-item {
   display: flex;
   flex-direction: row;
+  padding: 5px 0;
 }
 
 /*==================Ambassador End=======================*/
