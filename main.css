@@ -1099,7 +1099,7 @@ input[type="textarea"] {
 
 /*======================Donate Start=======================*/
 
-#body8 {background: var(--bluegray);}
+#body8 {background: lightsteelblue;}
 
 #donation {height: 800px;}
 
@@ -1148,6 +1148,7 @@ input[type="textarea"] {
   grid-row: 3/4;
   grid-column: 2/3;
   padding: 20px 0;
+  margin: 0 0 30px 50px;
 }
 
 #donation .payment {
