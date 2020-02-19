@@ -1195,8 +1195,8 @@ p.custom {
 }
 
 #donation a#custom_button:hover {
-  background: var(--eggplant);
-  color: var(--cream);
+  background: coral;
+  color: var(--eggplant);
 }
 
 /*======================Donate End=======================*/
