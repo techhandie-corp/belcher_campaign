@@ -768,6 +768,10 @@ input[type="textarea"] {
   line-height: 1.75;
 }
 
+#ambassador-items {
+  margin: 20px 0 20px 20px;
+}
+
 #ambassador-content #ambassador-items .wrap-item {
   display: flex;
   flex-direction: row;
