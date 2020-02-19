@@ -1114,7 +1114,7 @@ input[type="textarea"] {
     "start-g pay end-g";
     /*grid-rows 1-5*/
     /*grid-columns 1-4*/
-  color: var(--cream);
+  color: var(--eggplant);
   padding-top: 30px;
 }
 
@@ -1148,7 +1148,7 @@ input[type="textarea"] {
   grid-row: 3/4;
   grid-column: 2/3;
   padding: 20px 0;
-  margin: 0 0 30px 50px;
+  margin: 0 0 30px 30%;
 }
 
 #donation .payment {
@@ -1182,7 +1182,7 @@ p.custom {
   width: 100%;
   padding: 20px 100px;
   margin: 30px 0;
-  border: 1px solid midnightblue;
+  border: 1px double midnightblue;
   border-radius: 18px;
   background: coral;
 }
