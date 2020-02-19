@@ -1148,7 +1148,7 @@ input[type="textarea"] {
   grid-row: 3/4;
   grid-column: 2/3;
   padding: 20px 0;
-  margin: 0 0 50px 25%;
+  margin: 0 0 50px 20%;
 }
 
 #donation .payment {
