@@ -208,7 +208,7 @@ input[type=checkbox]+label {
 #side {
   margin: 50px 0 100px 0;
   background: rgb(60,60,60);
-  background: rgba(60,60,60,0.3);
+  background: rgba(60,60,60,0.5);
 }
 
 #side p {
