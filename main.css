@@ -1171,7 +1171,7 @@ input[type="textarea"] {
 }
 
 p.custom {
-  font-family: 'Great Vibes';
+  font-family: 'Architects Daughter';
   font-size: 1.5rem;
   line-height: 1.75;/* 1.5 */
   /*font-style: oblique;*/
@@ -1182,7 +1182,7 @@ p.custom {
   width: 100%;
   padding: 20px 100px;
   margin: 30px 0;
-  border: 1px double midnightblue;
+  border: 1px double var(--cream);
   border-radius: 18px;
   background: var(--blueribbon);
 }
