@@ -197,7 +197,7 @@ input[type=checkbox]+label {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /*background-attachment: fixed; */
+  /*background-attachment: fixed;*/
   opacity: 0.7;
 }
 
@@ -1095,6 +1095,7 @@ i.fas.fa-handshake {
     grid-row: 5/6;
     grid-column: 2/5;
     font-family: "Nova Round";
+    margin: 50px 0 0 0;
   }
 
 .dagger_note {
