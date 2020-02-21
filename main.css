@@ -190,6 +190,9 @@ input[type=checkbox]+label {
   display: none;
 }
 
+/*=====================Header end========================*/
+
+
 /*========================Content========================*/
 
 #body1 {
@@ -346,8 +349,10 @@ button a {
   color: navy;
 }
 
+/*========================Content========================*/
 
-/*========================Footer Start==========================*/
+
+/*======================Footer Start=====================*/
 
 footer {
   background: var(--blueribbon);
@@ -1261,8 +1266,10 @@ p.custom {
 
 /*For Tablets*/
 @media only screen and (max-width: 1300px) {
+
+
   #menu {
-    margin-left: 18%;
+    margin-left: 10%;
   }
 
   #f-menu {
