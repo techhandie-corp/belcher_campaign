@@ -501,7 +501,7 @@ a#masthead:hover, a#webmaster:hover {
   padding: 50px 0 25px 0;
 }
 
-#title {color: ivory;}
+#contribution #title {color: ivory;}
 
 #contact-form {
   background: var(--skyblu);
