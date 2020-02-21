@@ -1279,12 +1279,12 @@ p.custom {
     margin-left: 0%;
   }
 
-  .jumbotron {
+  #container .jumbotron {
     height: ;
   }
 
-  .buttons {
-    margin-top: 30px;
+  #container .buttons {
+    margin-top: 30px 30px 50px 30px;
   }
 }
 
