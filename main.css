@@ -1102,7 +1102,10 @@ i.fas.fa-handshake {
   color: var(--persimmon);
 }
 
-.foot_note {margin: 0 0 20px 150px;}
+.foot_note {
+  font-family: "Salsa";
+  margin: 0 0 20px 150px;
+}
 
 /*=================================================================*/
 
