@@ -991,7 +991,7 @@ i.fas.fa-handshake {
 
 #gallery {
   margin: -50px 0 0 -70px;
-  padding: 80px 0 100px 0;
+  padding: 150px 0 100px 0;
   background: transparent;/*var(--softblu)*/
 }
 
@@ -1102,7 +1102,7 @@ i.fas.fa-handshake {
   color: var(--persimmon);
 }
 
-
+.foot_note {margin: 0 0 20px 150px;}
 
 /*=================================================================*/
 
