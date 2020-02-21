@@ -1104,9 +1104,10 @@ i.fas.fa-handshake {
 
 .foot_note {
   font-family: "Salsa";
-  font-size: 1.75rem;
   margin: 0 0 20px 150px;
 }
+
+.foot_note span.dagger.dagger_note {font-size: 1.75rem;}
 
 /*=================================================================*/
 
