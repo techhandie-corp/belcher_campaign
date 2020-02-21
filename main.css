@@ -777,7 +777,7 @@ input[type="textarea"] {
   margin: 30px 0 30px 40px;
 }
 
-#ambassador-content #ambassador-items .b-item {
+#ambassador-content #ambassador-items {
   display: flex;
   flex-direction: row;
   padding: 5px 0;
