@@ -209,19 +209,19 @@ input[type=checkbox]+label {
   padding: 0 0 30px 0;
 }
 
-#title {
+#container #title {
   color: var(--blu);
   /*#18399a;*/
   margin: 30px 0 30px 0;
 }
 
-#side {
+#container #side {
   margin: 50px 0 100px 0;
   background: rgb(60,60,60);
   background: rgba(60,60,60,0.5);
 }
 
-#side p {
+#container #side p {
   font-size: 2em;
   color: white;
   /*papayawhip peachpuff*/
@@ -229,7 +229,7 @@ input[type=checkbox]+label {
   margin: 23px 0 0 20px;
 }
 
-.jumbotron {
+#container .jumbotron {
   /*https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Teaneck%20Road%20Streetscape%203-18-19%20Denise%20%40%20Podium.jpg*/
   background: transparent;
   width: 100vw;
@@ -239,7 +239,7 @@ input[type=checkbox]+label {
   /*padding: 0 0 30px 0;*/
 }
 
-.buttons {
+#container .buttons {
   width: 100%;
   display: grid;
   grid-template-areas:
@@ -256,7 +256,7 @@ input[type=checkbox]+label {
   position: absolute;
 }
 
-.title1, .title2 {
+#container .title1, #container .title2 {
   /*div[class^="title"]*/
   border-radius: 10px;
   color: var(--persimmon);
@@ -266,7 +266,7 @@ input[type=checkbox]+label {
 }
 
 /*#ff3c1a #ffff4d*/
-.title1 {
+#container .title1 {
   grid-area: title1;
   grid-row: 1/2;
   grid-column: 1/3;
@@ -275,7 +275,7 @@ input[type=checkbox]+label {
   margin: 0 0 10px 0;
 }
 
-.title2 {
+#container .title2 {
   grid-area: title2;
   grid-row: 1/2;
   grid-column: 3/5;
@@ -284,56 +284,56 @@ input[type=checkbox]+label {
   margin: 0 0 10px 0;
 }
 
-.donate1 {
+#container .donate1 {
   grid-area: buttons1;
   grid-row: 2/3;
   grid-column: 1/2;
   font-size: 1.35em;
 }
 
-.donate2 {
+#container .donate2 {
   grid-area: buttons1;
   grid-row: 2/3;
   grid-column: 2/3;
 }
 
-.donate3 {
+#container .donate3 {
   grid-area: buttons1;
   grid-row: 2/3;
   grid-column: 3/4;
 }
 
-.donate4 {
+#container .donate4 {
   grid-area: buttons1;
   grid-row: 2/3;
   grid-column: 4/5;
 }
 
-.donate5 {
+#container .donate5 {
   grid-area: buttons2;
   grid-row: 3/4;
   grid-column: 1/2;
 }
 
-.donate6 {
+#container .donate6 {
   grid-area: buttons2;
   grid-row: 3/4;
   grid-column: 2/3;
 }
 
-.donate7 {
+#container .donate7 {
   grid-area: buttons2;
   grid-row: 3/4;
   grid-column: 3/4;
 }
 
-.donate8 {
+#container .donate8 {
   grid-area: buttons2;
   grid-row: 3/4;
   grid-column: 4/5;
 }
 
-.buttons button {
+#container .buttons button {
   width: 100%;
   padding: 10px 0;
   margin: 10px 0;
@@ -342,7 +342,7 @@ input[type=checkbox]+label {
   background: coral;
 }
 
-button a {
+#container button a {
   text-decoration: none !important;
   font-size: 1.25em;
   font-weight: 600;
@@ -1269,7 +1269,7 @@ p.custom {
 
 
   #menu {
-    margin-left: 10%;
+    margin: 0 15%;
   }
 
   #f-menu {
