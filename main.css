@@ -774,6 +774,7 @@ input[type="textarea"] {
 }
 
 #ambassador-items span.b-item {
+  font-family: "Architects Daughter";
   margin: 0 0 0 15px;
 }
 
@@ -782,7 +783,6 @@ input[type="textarea"] {
   flex-direction: column;
   padding: 5px 0;
   margin: 30px 0 30px 40px;
-  font-family: "Architects Daughter"
 }
 
 i.fas.fa-handshake {margin: 15px 0;}
