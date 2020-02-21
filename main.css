@@ -213,6 +213,8 @@ input[type=checkbox]+label {
   color: var(--blu);
   /*#18399a;*/
   margin: 30px 0 30px 0;
+  background: rgb(60,60,60);
+  background: rgba(60,60,60,0.5);
 }
 
 #container #side {
@@ -1247,7 +1249,8 @@ p.custom {
 
 #donation a {
   text-decoration: none !important;
-  font-size: 1.25rem;
+  font-family: "Architects Daughter";
+  font-size: 1.5rem;
   font-weight: 600;
   color: ivory;
 }
