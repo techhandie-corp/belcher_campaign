@@ -1395,7 +1395,7 @@ p.custom {
     padding-top: 0;
     padding-bottom: 0;
     margin-left: 10px;
-    text-align: left;
+    text-align: justify;
     font-weight: 500;
     color: peachpuff;
     /*var(--kumquat)990000#79a6d2#6699cc*/
