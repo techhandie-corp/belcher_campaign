@@ -1169,13 +1169,16 @@ i.fas.fa-handshake {
     background: rgba(60,60,60,0.5);
     background-attachment: fixed;
     height: 100vh;
+    position:relative;
   }
 
   #maintenance .message {
     font-family: "Raleway";
     font-size: 2rem;
-    color: var(--eggplant);
-    margin: 0 20% 0 20%;
+    color: white;
+    margin: 10% 20% 0 20%;
+    position:absolute;
+    z-index:999;
   }
 
 /*==================Maintenance End====================*/
