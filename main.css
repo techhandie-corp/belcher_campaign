@@ -1157,9 +1157,9 @@ i.fas.fa-handshake {
 /*==================Maintenance Start====================*/
 
   #body9 {
-    background-image: url("images/fishing-boats-1159067.jpg");
-    background-color: rgb(60,60,60);
-    background-color: rgba(60,60,60,0.5);
+    background: linear-gradient(rgb(60,60,60),rgba(60,60,60,0.5)),url("images/fishing-boats-1159067.jpg");
+    background-color:
+    background-color:
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
