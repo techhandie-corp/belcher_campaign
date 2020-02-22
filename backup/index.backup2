@@ -67,6 +67,7 @@
           </p>
         </div>
         <div class="buttons">
+
           <div class="title1 center">Help Lift Teaneck Up!</div>
           <div class="title2 center">Make a Contribution ...</div>
 
@@ -74,11 +75,27 @@
             <button type="button"><a href="#">Volunteer</a></button>
           </div>
           <div class="donate2">
-            <button type="button">
-              <a id="index_button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9RDGUS8J4HPW4&source=url" role="button">Make a Donation</a>
-            </button>
+            <button type="button"><a href="#">$1</a></button>
           </div>
-        </div><!-- buttons -->
+          <div class="donate3">
+            <button type="button"><a href="#">$10</a></button>
+          </div>
+          <div class="donate4">
+            <button type="button"><a href="#">$50</a></button>
+          </div>
+          <div class="donate5">
+            <button type="button"><a href="#">$100</a></button>
+          </div>
+          <div class="donate6">
+            <button type="button"><a href="#">$250</a></button>
+          </div>
+          <div class="donate7">
+            <button type="button"><a href="#">$500</a></button>
+          </div>
+          <div class="donate8">
+            <button type="button"><a href="#">More ...</a></button>
+          </div>
+        </div>
       </div>
       <!--jumbotron-->
     </section>
