@@ -1351,7 +1351,7 @@ p.custom {
   }
 
   #side p {
-    font-size: 1.5em;
+    font-size: 1.25rem;
     line-height: 1.25;
     padding-top: 0;
     padding-bottom: 0;
@@ -1367,7 +1367,7 @@ p.custom {
   }
 
   #container .jumbotron {
-    height: 1600px;
+    height: 1500px;
   }
 
   #container .buttons {
