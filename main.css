@@ -1304,6 +1304,9 @@ p.custom {
 /*For Tablets*/
 @media only screen and (max-width: 1300px) {
 
+  #site-container {
+    margin-top: -80px;
+  }
 
   #menu {
     margin: 0 13%;
