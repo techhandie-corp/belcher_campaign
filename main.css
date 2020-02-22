@@ -1158,14 +1158,14 @@ i.fas.fa-handshake {
 
   #body9 {
     background-image: url("images/fishing-boats-1159067.jpg");
+    background-color: rgb(60,60,60);
+    background-color: rgba(60,60,60,0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   #maintenance {
-    background: rgb(60,60,60);
-    background: rgba(60,60,60,0.5);
     background-attachment: fixed;
     height: 100vh;
     position:relative;
