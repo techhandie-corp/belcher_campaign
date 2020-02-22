@@ -1162,9 +1162,7 @@ i.fas.fa-handshake {
 
 /*==================Maintenance Start====================*/
 
-  #body9 {
-
-  }
+  /*#body9 {}*/
 
   #maintenance {
     position:relative;
@@ -1183,8 +1181,8 @@ i.fas.fa-handshake {
     font-weight: 700;
     color: lemonchiffon;
     margin: 8% 20% 0 20%;
-    position:absolute;
-    z-index:999;
+    /*position:absolute;*/
+    /*z-index:999;*/
   }
 
 /*==================Maintenance End====================*/
