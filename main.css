@@ -1175,6 +1175,7 @@ i.fas.fa-handshake {
   #maintenance .message {
     font-family: "Raleway";
     font-size: 2rem;
+    font-weight: 700;
     color: white;
     margin: 15% 20% 0 20%;
     position:absolute;
