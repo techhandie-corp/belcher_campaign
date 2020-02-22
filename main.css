@@ -1165,13 +1165,14 @@ i.fas.fa-handshake {
   }
 
   #maintenance {
-
+    margin: 0;
   }
 
   #maintenance .message {
     font-family: "Raleway";
     font-size: 2rem;
     color: var(--eggplant);
+    margin: 0 auto;
   }
 
 /*==================Maintenance End====================*/
