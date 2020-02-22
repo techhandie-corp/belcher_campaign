@@ -1166,6 +1166,9 @@ i.fas.fa-handshake {
 
   #maintenance {
     margin: 0;
+    background: rgb(60,60,60);
+    background: rgba(60,60,60,0.5);
+    height: 100vh;
   }
 
   #maintenance .message {
@@ -1175,8 +1178,6 @@ i.fas.fa-handshake {
     background: rgba(60,60,60,0.5);
     color: var(--eggplant);
     margin: 100px 20% 0 20%;
-    height: 100vh;
-
   }
 
 /*==================Maintenance End====================*/
