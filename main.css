@@ -1166,8 +1166,6 @@ i.fas.fa-handshake {
   }
 
   #maintenance {
-    background-attachment: fixed;
-    height: 100vh;
     position:relative;
   }
 
