@@ -1174,7 +1174,9 @@ i.fas.fa-handshake {
     background: rgb(60,60,60);
     background: rgba(60,60,60,0.5);
     color: var(--eggplant);
-    margin: 0 auto;
+    margin: 100px 20% 0 20%;
+    height: 100vh;
+
   }
 
 /*==================Maintenance End====================*/
