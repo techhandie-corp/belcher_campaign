@@ -235,7 +235,7 @@ input[type=checkbox]+label {
   /*https://s3-us-west-2.amazonaws.com/s.cdpn.io/2736276/Teaneck%20Road%20Streetscape%203-18-19%20Denise%20%40%20Podium.jpg*/
   background: transparent;
   width: 100vw;
-  height: 1100px;
+  height: 1000px;
   position: relative;
   margin: 0 0 0 -15px;
   /*padding: 0 0 30px 0;*/
@@ -1277,11 +1277,11 @@ p.custom {
   }
 
   #container .jumbotron {
-    height: 1200px;
+    height: 1100px;
   }
 
   #container .buttons {
-    margin-top: 30px 30px 50px 30px;
+    margin-top: 0 30px 50px 30px;
   }
 }
 
