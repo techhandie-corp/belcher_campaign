@@ -57,6 +57,12 @@
   min-height: 100vh;
   margin: 0 auto;
   position: relative;
+  background: linear-gradient(rgba(60,60,60,0.5),rgb(152,175,199),rgb(242,242,242)),url("images/fishing-boats-1159067.jpg");
+  background-color:
+  background-color:
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*========================Header=========================*/
@@ -1156,13 +1162,8 @@ i.fas.fa-handshake {
 
 /*==================Maintenance Start====================*/
 
-  html,#body9 {
-    background: linear-gradient(rgba(60,60,60,0.5),rgb(152,175,199),rgb(242,242,242)),url("images/fishing-boats-1159067.jpg");
-    background-color:
-    background-color:
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  #body9 {
+
   }
 
   #maintenance {
