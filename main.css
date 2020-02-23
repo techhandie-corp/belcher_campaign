@@ -1393,7 +1393,7 @@ p.custom {
    grid-column-gap: 0.5%;
    margin-left: -40px;
    margin-top: -30px;
-   margin-bottom: 20px;
+   padding-bottom: 20px;
  }
 
  #container .title1 {
