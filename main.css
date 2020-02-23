@@ -1391,7 +1391,7 @@ p.custom {
      "buttons2";
    grid-template-columns: auto;
    grid-column-gap: 0.5%;
-   margin: 0 auto;
+   margin-left: -30px;
  }
 
  #container .title1 {
@@ -1400,7 +1400,7 @@ p.custom {
    grid-column: 1/2;
    font-size: 1.125rem;
    font-weight: 600;
-   margin: 0 0 10px 0;
+   margin: 0 0 10px -50px;
    border-radius: 0;
  }
 
@@ -1410,7 +1410,7 @@ p.custom {
    grid-column: 1/2;
    font-size: 1.125rem;
    font-weight: 500;
-   margin: 0 0 10px 0;
+   margin: 0 0 10px -50px;
    border-radius: 0;
  }
 
