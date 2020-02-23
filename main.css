@@ -1385,11 +1385,11 @@ p.custom {
 
   #container .buttons {
    grid-template-areas:
-     "title1 "
-     "title2 "
-     "buttons1 "
-     "buttons2 "
-   grid-template-columns: 1fr;
+     "title1"
+     "title2"
+     "buttons1"
+     "buttons2";
+   grid-template-columns: auto;
    grid-column-gap: 0.5%;
    margin: 0 auto;
  }
