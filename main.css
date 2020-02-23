@@ -1391,7 +1391,7 @@ p.custom {
      "buttons2";
    grid-template-columns: auto;
    grid-column-gap: 0.5%;
-   margin-left: -30px;
+   margin-left: -70px;
  }
 
  #container .title1 {
