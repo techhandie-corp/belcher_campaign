@@ -1291,11 +1291,16 @@ p.custom {
   margin-left: 8.5%;
 }
 
+/*Contact*/
+#global-header {padding-top: 85px;}
+
+#global-header .block {padding-left: 0;}
+
+
 /*======================Tablets End======================*/
 
 
 /*=====================Phone Start=======================*/
-
 /*For Phones*/
 
 /*Header*/
@@ -1360,10 +1365,27 @@ p.custom {
 /*Contact*/
 #global-header {
   padding-top: 0;
-  margin-left: -80px;
-  text-align: justify;
   line-height: 1.125;
 }
+
+#global-header .block {
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: left;
+}
+
+#c-contact-form {
+  height: 1400px;
+}
+
+#c-contact-form .block form .form-group {
+  width: 95%;
+}
+
+#c-contact-form .block form .form-group-2 {
+  width: 95%;
+}
+
 
 
   /*Content*/
