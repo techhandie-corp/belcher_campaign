@@ -1285,6 +1285,14 @@ p.custom {
   }
 }
 
+/*Active*/
+#activities {
+  margin-left: 8%;
+}
+
+/*=====================Tablets End====================*/
+
+
 /*=======================================================*/
 
 /*For Phones*/
@@ -1332,14 +1340,6 @@ p.custom {
   .show-menu {
     display: block;
   }
-
-  /*=====================Tablets End====================*/
-
-  /*Active*/
-  #activities {
-    margin-left: 7%;
-  }
-
 
   /*Content*/
 
