@@ -1462,9 +1462,9 @@ p.custom {
     "left bottom right";
   grid-template-columns: auto;
   grid-column-gap: auto;
-  grid-row-gap: auto;
-  height: 1000px;
-  margin: 0 0 0 10%;
+  grid-row-gap: 1fr;
+  height: 3000px;
+  margin: 0 0 100px 10%;
 }
 
 .top {
@@ -1478,7 +1478,7 @@ p.custom {
   font-size: 2rem;
   font-weight: 600;
   color: var(--eggplant);
-  margin: -30px 0 0 0;
+  margin: 0 0 -100px 0;
 }
 
  .left {
@@ -1514,7 +1514,7 @@ p.custom {
 .g-row2-2 {
   grid-area: row5;
   grid-row: 6/7;
-  grid-column: 234;
+  grid-column: 2/3;
 }
 
 .g-row2-3 {
