@@ -1504,7 +1504,10 @@ p.custom {
   }
 
 
-/*=====servant======*/
+/*====Contribute====*/
+#contribution input.field a {color: var(--persimmon)}
+
+/*=====Servant======*/
 #primary {display: block; margin-top: -150px; padding-top: 0;}
 
 #page-title {font-size: 1.75em; line-height: 1;}
