@@ -1554,6 +1554,12 @@ p.custom {
 
 #donation .payment {padding: 0;}
 
+/*Issues*/
+#issues-content p {
+  font-size: 1.125rem;
+  line-height: 1.125;
+}
+
 
 /*=====Servant======*/
 #primary {display: block; margin-top: -150px; padding-top: 0;}
