@@ -1468,7 +1468,7 @@ p.custom {
   grid-column-gap: auto;
   grid-row-gap: 1fr;
   height: 3000px;
-  margin: 0 0 100px 15%;
+  margin: -100px 0 100px 5%;
 }
 
 .top {
