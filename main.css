@@ -1513,11 +1513,11 @@ p.custom {
 /*====Contribute====*/
 #contribution {
   padding: 0 10px;
-  height: 1900px;/*0*/
+  height: 1980px;/*0*/
 }
 
 #contact-form.form-body {
-  width:350px;
+  width:300px;
   /*width: 500px*/
 }
 
@@ -1557,7 +1557,7 @@ p.custom {
 /*Issues*/
 #issues-content {
   margin-top: 0;
-  height: 1900px;
+  height: 1980px;
 }
 
 #issues-content #title {
