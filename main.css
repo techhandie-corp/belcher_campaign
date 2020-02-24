@@ -1557,9 +1557,9 @@ p.custom {
 /*Issues*/
 
 
-#issues-content .title {font-size: 1.75rem;}
+#issues-content #title {font-size: 1.75rem;}
 
-#issues-content .subtitle {font-size: 1.5rem;}
+#issues-content #subtitle {font-size: 1.5rem;}
 
 #issues-content .issues {font-size: 1.25rem;}
 
