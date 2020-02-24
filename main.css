@@ -1344,6 +1344,14 @@ p.custom {
     width: 100%;
   }
 
+  li ul li a {
+    min-width:100vh;
+    /*min-width: 140px*/
+    padding: 0;
+    /*padding: 0 20px*/
+  }
+
+
   /*Display 'show menu' link*/
   .show-menu {
     display: block;
