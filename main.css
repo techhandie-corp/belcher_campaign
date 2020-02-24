@@ -1555,9 +1555,15 @@ p.custom {
 #donation .payment {padding: 0;}
 
 /*Issues*/
+#issues-content {
+  margin-top: 0;
+  height: 1600px;
+}
 
-
-#issues-content #title {font-size: 1.75rem;}
+#issues-content #title {
+  font-size: 1.75rem;
+  margin-top: 0;
+}
 
 #issues-content #subtitle {font-size: 1.5rem;}
 
@@ -1574,7 +1580,7 @@ p.custom {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;   
+    justify-content: flex-start;
  }
 
 
