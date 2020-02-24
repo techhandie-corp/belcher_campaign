@@ -1345,7 +1345,6 @@ p.custom {
   }
 
 /*Ambassador*/
-
 #ambassador-content {
   padding: 0;
   height: 1380px;
@@ -1356,7 +1355,14 @@ p.custom {
 #ambassador-content .text {
   text-align: left;
   line-height: 1.125;
+}
 
+/*Contact*/
+#global-header {
+  padding-top: 0;
+  margin-left: -80px;
+  text-align: justify;
+  line-height: 1.125;
 }
 
 
