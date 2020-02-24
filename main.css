@@ -1265,6 +1265,7 @@ p.custom {
 /*    Responsive Styling   */
 /***************************/
 
+/*======================Tablets Start====================*/
 /*For Tablets*/
 @media only screen and (max-width: 1300px) {
 
@@ -1287,13 +1288,13 @@ p.custom {
 
 /*Active*/
 #activities {
-  margin-left: 8%;
+  margin-left: 8.5%;
 }
 
-/*=====================Tablets End====================*/
+/*======================Tablets End======================*/
 
 
-/*=======================================================*/
+/*=====================Phone Start=======================*/
 
 /*For Phones*/
 @media only screen and (max-width : 760px) {
