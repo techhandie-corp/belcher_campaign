@@ -1393,8 +1393,9 @@ p.custom {
    grid-template-columns: auto;
    grid-column-gap: 0.5%;
    margin-left: -40px;
-   margin-top: -50px;
+   margin-top: 0;
    margin-bottom: 50px;
+   padding: 0;
  }
 
  #container .title1 {
