@@ -1568,6 +1568,16 @@ p.custom {
   line-height: 1.125;
 }
 
+#issues-content .salute {font-size: 1.25rem;}
+
+#issues-content #banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;   
+ }
+
+
 
 /*=====Servant======*/
 #primary {display: block; margin-top: -150px; padding-top: 0;}
