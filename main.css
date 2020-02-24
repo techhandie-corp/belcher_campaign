@@ -1297,6 +1297,8 @@ p.custom {
 /*=====================Phone Start=======================*/
 
 /*For Phones*/
+
+/*Header*/
 @media only screen and (max-width : 760px) {
   header {
     background: var(--shell);
@@ -1341,6 +1343,12 @@ p.custom {
   .show-menu {
     display: block;
   }
+
+/*Ambassador*/
+
+#ambassador-content {padding-top: 0;}
+
+
 
   /*Content*/
 
