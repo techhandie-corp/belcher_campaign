@@ -1346,7 +1346,10 @@ p.custom {
 
 /*Ambassador*/
 
-#ambassador-content {padding-top: 0;}
+#ambassador-content {
+  padding: 0;
+  height: 1380px;
+}
 
 
 
