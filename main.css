@@ -596,6 +596,8 @@ input[type="textarea"] {
   border-radius: 0.25rem;
 }
 
+#contact-form form .field-block a {color:var(--persimmon);}
+
 .support {
   font-size: 1.25em;
   text-align: left;
@@ -1515,7 +1517,9 @@ p.custom {
   /*width: 500px*/
 }
 
-#contribution .field-block input.field a {color: var(--persimmon)}
+#contribution #contact-form p.just {
+  text-align: left;
+}
 
 
 /*=====Servant======*/
