@@ -1505,7 +1505,10 @@ p.custom {
 
 
 /*====Contribute====*/
-#contribution {padding: 0 10px;}
+#contribution {
+  padding: 0 10px;
+  height: 1900px;/*0*/
+}
 
 #contact-form.form-body {
   width:350px;
