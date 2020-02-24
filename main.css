@@ -1521,6 +1521,27 @@ p.custom {
   text-align: left;
 }
 
+/*Donation*/
+#donation {
+  padding: 0;
+  height: 1500px;
+}
+
+#donation .title {
+  font-size:2.5rem;
+}
+
+#donation .subtitle {
+  font-size:1.5rem;
+}
+
+#donation p.custom.just {
+  font-size: 1.125rem;
+  line-height: 1.125;
+}
+
+
+
 
 /*=====Servant======*/
 #primary {display: block; margin-top: -150px; padding-top: 0;}
