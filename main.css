@@ -1347,6 +1347,9 @@ p.custom {
   /*Display 'show menu' link*/
   .show-menu {
     display: block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--blu);
   }
 
 /*Ambassador*/
