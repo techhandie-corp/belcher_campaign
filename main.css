@@ -1557,12 +1557,13 @@ p.custom {
 /*Issues*/
 #issues-content {
   margin-top: 0;
-  height: 1600px;
+  height: 1800px;
 }
 
 #issues-content #title {
   font-size: 1.75rem;
   margin-top: 0;
+  text-align: left;
 }
 
 #issues-content #subtitle {font-size: 1.5rem;}
