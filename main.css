@@ -1445,6 +1445,10 @@ p.custom {
 
 /*=====Active======*/
 
+#gallery {
+  margin-left: 0;
+}
+
 #activities {
   display: grid;
   grid-template-areas:
@@ -1464,7 +1468,7 @@ p.custom {
   grid-column-gap: auto;
   grid-row-gap: 1fr;
   height: 3000px;
-  margin: 0 0 100px 10%;
+  margin: 0 0 100px 15%;
 }
 
 .top {
