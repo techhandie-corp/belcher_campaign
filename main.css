@@ -1298,6 +1298,10 @@ p.custom {
 
 #global-header .block {padding-left: 0;}
 
+/*Donate*/
+#donation .content {margin-left: 0;}
+
+
 
 /*======================Tablets End======================*/
 
@@ -1524,7 +1528,7 @@ p.custom {
 /*Donation*/
 #donation {
   padding: 0;
-  height: 830px;
+  height: 880px;/*830*/
   margin: 0 0 0 -10px;
 }
 
