@@ -1351,6 +1351,13 @@ p.custom {
   height: 1380px;
 }
 
+#ambassador-items {margin-left: 0;}
+
+#ambassador-content .text {
+  text-align: left;
+  line-height: 1;
+  
+}
 
 
   /*Content*/
