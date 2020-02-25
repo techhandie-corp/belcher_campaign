@@ -1598,7 +1598,7 @@ p.custom {
   font-size:1.25rem;
 }
 
-#platform-content p.head {
+#platform-content .head {
   font-size 1.125rem;
 }
 
