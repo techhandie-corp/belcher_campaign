@@ -1584,6 +1584,16 @@ p.custom {
     justify-content: flex-start;
  }
 
+/*==Platform==*/
+#platform-content {
+  height: 1350px;
+  margin-top: 0;
+}
+
+#platform-content p {
+  font-size: 1.125rem;
+  line-height: 1.125;
+}
 
 
 /*=====Servant======*/
