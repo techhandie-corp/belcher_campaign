@@ -370,8 +370,8 @@ a#masthead:hover, a#webmaster:hover {
 /*======================Servant==========================*/
 
 #body2 {
-  background: var(--softgray);
-  /*lightsteelblue|blanchedalmond*/
+  background: lightgray;
+  /*softgray|lightsteelblue|blanchedalmond*/
 }
 
 #denise {
@@ -1642,11 +1642,21 @@ p.custom {
 
 
 /*=====Servant======*/
-#primary {display: block; margin-top: -150px; padding-top: 0;}
+#denise .bio {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.175em;
+  line-height: 1.5;
+}
 
-#page-title {font-size: 1.75em; line-height: 1;}
+/* #primary {display: block; margin-top: -150px; padding-top: 0;} */
 
-#denise .bio {text-align: justify; font-size: 1.175em; line-height: 1.5;}
+#page-title {
+  font-size: 1.75em;
+  line-height: 1;
+}
+
 
 
 /*=====Active======*/
