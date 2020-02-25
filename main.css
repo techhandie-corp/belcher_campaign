@@ -376,8 +376,8 @@ a#masthead:hover, a#webmaster:hover {
 
 #denise {
   position: relative;
-  padding: 80px 0 200px 0;
-  /*height: 1045*/
+  padding: 80px 0 0 0;
+  height: 1070px;
 }
 
 .bio.just {
