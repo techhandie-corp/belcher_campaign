@@ -638,7 +638,7 @@ input[type="textarea"] {
   color: var(--blueribbon);
 }
 
-#platform-content .head {
+#platform-content #platform-heading {
   font-family: "Nova Square";
   font-size: 1.5rem;
   margin: 0 0 20px 25px;
@@ -1598,7 +1598,7 @@ p.custom {
   font-size:1.25rem;
 }
 
-#platform-content .head {
+#platform-content #platform-heading {
   font-size 1.125rem !important;
 }
 
