@@ -1590,6 +1590,23 @@ p.custom {
   margin-top: 0;
 }
 
+#platform-content #title {
+  font-size:1.75rem;
+}
+
+#platform-content #subtitle {
+  font-size:1.5rem;
+}
+
+#platform-content p.head {
+  font-size 1.25rem;
+}
+
+#platform-content .items.just {
+  font-size: 1.125rem;
+  line-height: 1.125;
+}
+
 #platform-content p {
   font-size: 1.125rem;
   line-height: 1.125;
