@@ -1587,28 +1587,32 @@ p.custom {
 /*==Platform==*/
 #platform-content {
   height: 1350px;
-  margin-top: 0;
+  margin: 0;
 }
 
 #platform-content #title {
-  font-size:1.75rem;
-}
-
-#platform-content #subtitle {
   font-size:1.5rem;
 }
 
+#platform-content #subtitle {
+  font-size:1.25rem;
+}
+
 #platform-content p.head {
-  font-size 1.25rem;
+  font-size 1.125rem;
+}
+
+#platform--content .items.just {
+  text-align: left;
 }
 
 #platform-content .o-item {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.125;
 }
 
 #platform-content p {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.125;
 }
 
