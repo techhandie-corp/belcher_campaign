@@ -403,7 +403,7 @@ a#masthead:hover, a#webmaster:hover {
   }
 
   .d-bio {
-    width: 800px;
+    /* width: 800px; */
     display: grid;
     grid-template-areas:
       "top top top"
