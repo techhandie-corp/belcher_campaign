@@ -647,7 +647,6 @@ input[type="textarea"] {
 #platform-content .items {
   font-size: 1.25rem;
   line-height: 2;
-  /*list-style-type: decimal !important;*/
 }
 
 #platform-content .wrap-item {
@@ -662,6 +661,7 @@ input[type="textarea"] {
 
 #platform-content .o-item {
   margin: 0 30px;
+  text-align: justify;
 }
 
 /*======================Platform End=====================*/
@@ -1269,16 +1269,22 @@ p.custom {
 
 /*======================Tablets Start====================*/
 /*For Tablets*/
+
 @media only screen and (max-width: 1300px) {
 
+/*Header*/
   #menu {
     margin: 0 13%;
   }
 
+
+/*Footer*/
   #f-menu {
     margin-left: 0%;
   }
 
+
+/*Index*/
   #container .jumbotron {
     height: 1100px;
   }
@@ -1286,22 +1292,30 @@ p.custom {
   #container .buttons {
     margin: 50px 0 -50px -20px;
   }
-}
-
-/*Active*/
-#activities {
-  margin-left: 8.5%;
-}
-
-/*Contact*/
-#global-header {padding-top: 85px;}
-
-#global-header .block {padding-left: 0;}
-
-/*Donate*/
-#donation .content {margin-left: 0;}
 
 
+  /*Active*/
+  #activities {
+    margin-left: 8.5%;
+  }
+
+
+  /*Contact*/
+  #global-header {padding-top: 85px;}
+
+  #global-header .block {padding-left: 0;}
+
+
+  /*Donate*/
+  #donation .content {margin-left: 0;}
+
+
+  /*Ptatform*/
+  #platform-content {
+    height: 1450px;
+  }
+
+}/*@media 1300px*/
 
 /*======================Tablets End======================*/
 
@@ -1605,7 +1619,7 @@ p.custom {
   margin-left: 0;
 }
 
-#platform-content .items.just {
+#platform-content .items {
   text-align: left;
 }
 
@@ -1747,4 +1761,6 @@ p.custom {
   }
 
 
-}
+}/*@media 768px*/
+
+/*=======================Phones End======================*/
