@@ -1642,12 +1642,18 @@ p.custom {
 
 
 /*=====Servant======*/
+#denise {
+  height: 1800px;
+  padding: 0;
+}
+
 #denise .bio {
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-size: 1.175em;
-  line-height: 1.5;
+  font-size: 1.125rem;
+  line-height: 1.125;
+  justify-content: flex-start;
 }
 
 /* #primary {display: block; margin-top: -150px; padding-top: 0;} */
