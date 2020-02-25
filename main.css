@@ -1650,6 +1650,7 @@ p.custom {
 #denise .bio {
   display: flex;
   flex-direction: column;
+  flex-wrap:wrap;
   text-align: left;
   font-size: 1.125rem;
   line-height: 1.125;
