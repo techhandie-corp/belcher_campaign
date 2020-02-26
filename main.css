@@ -1655,6 +1655,7 @@ p.custom {
   font-size: 1.75rem;
   line-height: 1;
   text-align:left;
+  margin-left: 10px;
 }
 
 #donation .d-bio {
@@ -1698,7 +1699,7 @@ grid-template-areas:
 }
 
 #d-image {
-  margin-left: -50px;
+  margin-left: -70px;
 }
 
 
