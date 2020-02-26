@@ -1684,6 +1684,7 @@ grid-template-areas:
   line-height: 1.75;
   color: var(--blueribbon)
   margin-left: -40px;
+  margin-right: 15px;
 }
 
 .bullet {
@@ -1696,6 +1697,7 @@ grid-template-areas:
   grid-row: 3/4;
   grid-column: 1/2;
   overflow-wrap: break-word;
+  margin-right: 15px;
 }
 
 #d-image {
