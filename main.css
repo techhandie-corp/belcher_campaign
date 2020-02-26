@@ -1654,6 +1654,7 @@ p.custom {
 #page-title {
   font-size: 1.75rem;
   line-height: 1;
+  text-align:left;
 }
 
 #donation .d-bio {
