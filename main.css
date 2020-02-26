@@ -179,16 +179,16 @@
     margin: 50px 0 0 0;
   }
 
-.dagger_note {
+#gallery .dagger_color {
   color: var(--persimmon);
 }
 
-.foot_note {
+#gallery .foot_note {
   font-family: "Salsa";
   margin: 0 0 20px 150px;
 }
 
-.foot_note span.dagger.dagger_note {font-size: 2rem;}
+#gallery .foot_note span.dagger.dagger_color {font-size: 2rem;}
 
 /*=================================================================*/
 
@@ -614,7 +614,7 @@ input[type="textarea"] {
   text-align: left;
 }
 
-.dagger {
+#contact-form .dagger {
   font-size: 1.5em;
   font-weight: 700;
   color: ivory;
