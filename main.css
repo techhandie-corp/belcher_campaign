@@ -1671,7 +1671,7 @@ grid-template-areas:
   grid-area: top;
   grid-row: 1/2;
   grid-column: 1/2;
-  margin: 20px 0 13px -20px;
+  margin: 20px 0 13px 0;
 }
 
 .bio_list {
@@ -1699,7 +1699,7 @@ grid-template-areas:
 }
 
 #d-image {
-  margin-left: -70px;
+  margin-left: -30px;
 }
 
 
