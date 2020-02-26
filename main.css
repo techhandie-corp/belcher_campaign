@@ -1351,7 +1351,7 @@ input[type=checkbox]+label {
 #gallery {
   margin: 0;
   padding: 70px 0 0 0;
-  height: 3475x;
+  height: 3625px;
 }
 
 #activities {
@@ -1387,7 +1387,7 @@ input[type=checkbox]+label {
   font-size: 2rem;
   font-weight: 600;
   color: var(--eggplant);
-  margin: 0 0 -100px 0;
+  margin: 30px 0 -50px 0;
 }
 
  .left {
@@ -1465,7 +1465,7 @@ input[type=checkbox]+label {
   }
 
   #gallery .foot_note {
-    margin: -200 0 20px 0;
+    margin: -200px 0 20px 0;
   }
 
 
