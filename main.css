@@ -1317,15 +1317,15 @@ p.custom {
     height:1270px;
   }
 
-  .bio {
-    margin-left: 0;
+  #denise .bio.just {
+    margin: 0;
   }
 
-  .bio_list {
+  #denise .bio_list {
     margin-right: 20px;
   }
 
-  #bio_footer {
+  #denise #bio_footer {
     margin-right: 20px;
   }
 
