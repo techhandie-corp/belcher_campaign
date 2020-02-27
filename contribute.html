@@ -53,12 +53,12 @@
       <div id="contact-form" class="form-body">
     						<form accept-charset="UTF-8" action="https://formspree.io/info@belcher4council.com" method="POST">
                   <div class="field-block support">
-                    <input type="hidden" class="form-control" name="Source" value="Volunteer Info">
                     <input type="checkbox" class="field" name="Campaign_Support" value="Support"> I support the Belcher for Council campaign<br>
                   </div><!--field block-->
     							<div class="form-group">
     								<p class="requires">* required fields</p>
-    								<input type='hidden' class="form-control" name="Source" value="Form Info">
+                    <!--Form Identifier-->
+    								<input type='hidden' class="form-control" name="Source" value="Volunteer Info">
     								<label for="firstname-input" class="form-label">* First Name: </label>
     								<input type="text" class="form-control" name="First Name" required="true"><!--pattern="[A-Za-z]{1..50}"-->
 
