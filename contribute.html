@@ -60,29 +60,31 @@
     								<p class="requires">* required fields</p>
     								<input type='hidden' class="form-control" name="Source" value="Form Info">
     								<label for="firstname-input" class="form-label">* First Name: </label>
-    								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="First Name" required="true">
+    								<input type="text" class="form-control" name="First Name" required="true"><!--pattern="[A-Za-z]{1..50}"-->
 
     								<label for="lastname-input" class="form-label">* Last Name: </label>
-    								<input type="text" pattern="[A-Za-z]{1..50}" class="form-control" name="Last Name" required="true">
+    								<input type="text" class="form-control" name="Last Name" required="true"><!--pattern="[A-Za-z]{1..50}"-->
 
                     <label for="address1-input" class="form-label">* Address1: </label>
-    								<input type="text" pattern="/^\d+\s[A-z]+\s[A-z]+/g" class="form-control" name="Address1" required="true">
-                    <label for="address2-input" class="form-label">&nbsp;&nbsp;Address2: </label>
-    								<input type="text" pattern="/^\d+\s[A-z]+\s[A-z]+/g" class="form-control" name="Address2" required="false">
+    								<input type="text" class="form-control" name="Address1" required="true" placeholder="100 Main St."><!--pattern="/^\d+\s[A-z]+\s[A-z]+/g"-->
+
+                    <label for="address2-input" class="form-label" placeholder="Apt#2">&nbsp;&nbsp;Address2: </label>
+    								<input type="text" class="form-control" name="Address2" required="false"><!--pattern="/^\d+\s[A-z]+\s[A-z]+/g"-->
+
                     <label for="city-input" class="form-label">* City: </label>
-    								<input type="text" pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$" class="form-control" name="City" required="true">
+    								<input type="text" class="form-control" name="City" required="true"><!--pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$"-->
 
                     <label for="state-input" class="form-label">* State: </label>
-                    <input type="text" pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$" class="form-control" name="State" required="true">
+                    <input type="text" class="form-control" name="State" required="true"><!--pattern="/^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$"-->
 
                     <label for="zip-input" class="form-label">* Zip Code <i>(5 digits only)</i>: </label>
-    								<input type="text" pattern="^\d{5}$" class="form-control" name="Zip" required="true">
+    								<input type="text" class="form-control" name="Zip" required="true"><!--pattern="^\d{5}$"-->
 
                     <label for="phone-input" class="form-label">* Phone Number <i>(10 digits; no hyphens)</i> :</label>
-    								<input type="text" pattern="[0-9]{10}" class="form-control" name="Phone" require="true">
+    								<input type="text" class="form-control" name="Phone" require="true" placeholder="201-555-1212"><!--pattern="[0-9]{10}"-->
 
     								<label for="email-input" class="form-label">* Email Address: </label>
-    								<input type="text" pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i" class="form-control" name="Email" required="true">
+    								<input type="text" class="form-control" name="Email" required="true"><!--pattern="/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i"-->
 
               <!--Checkboxes-->
 
