@@ -1106,7 +1106,7 @@ input[type=checkbox]+label {
   grid-template-areas:
     "left pic right"
     "left content right";
-  grid-template-columns: 10% 80% 10%;
+  /*grid-template-columns: 10% 80% 10%;*/
 }
 
 #news-container .left {
@@ -1848,6 +1848,25 @@ input[type=checkbox]+label {
   text-align: left;
 }
 /*Platfrom End*/
+
+
+/*What's New Start*/
+#news-container {
+  height:875px;
+  padding: 0;
+}
+
+#news-container .news {
+  margin: 0 0 0 12%;
+}
+
+#news-container .narrative {
+  text-align:left;
+}
+
+/*What's New End*/
+
+
 
 
 /*Servant Start*/
