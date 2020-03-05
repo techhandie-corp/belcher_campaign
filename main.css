@@ -1144,6 +1144,11 @@ input[type=checkbox]+label {
   grid-column: 3/4;
 }
 
+#news-container img.thumbnail {
+  width: 25px;
+  height: 25px;
+}
+
 /*====================What's New End=====================*/
 
 
