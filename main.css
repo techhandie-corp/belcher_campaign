@@ -1096,7 +1096,7 @@ input[type=checkbox]+label {
 /*===================What's New Start====================*/
 #news-container {
   padding-top: 80px;
-  height: 1100px;
+  height: 2100px;
   position: relative;
 }
 
@@ -1107,6 +1107,7 @@ input[type=checkbox]+label {
     "left pic right"
     "left content right";
   /*grid-template-columns: 10% 80% 10%;*/
+  margin-left:3.5%;
 }
 
 #news-container .left {
@@ -1122,7 +1123,7 @@ input[type=checkbox]+label {
 }
 
 #news-container img {
-  width: 80%;
+  width: 95%;
 }
 
 #news-container .narrative {
@@ -1130,7 +1131,10 @@ input[type=checkbox]+label {
   grid-row: 2/3;
   grid-column: 2/3;
   line-height:1.5;
-  margin-top: 10px;
+  margin-top: 25px;
+  font-family: "Nova Round";
+  font-size: 1.325rem;
+  font-weight:600;
   color: blueviolet;
 }
 
@@ -1852,12 +1856,16 @@ input[type=checkbox]+label {
 
 /*What's New Start*/
 #news-container {
-  height:875px;
+  height:950px;
   padding: 0;
 }
 
 #news-container .news {
-  margin: 0 0 0 12%;
+  margin: 0 5% 0 12%;
+}
+
+#news-container img {
+  width:95%;
 }
 
 #news-container .narrative {
