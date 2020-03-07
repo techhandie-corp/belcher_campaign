@@ -812,10 +812,7 @@ header {
 }
 
 #menu {
-  display:flex;
-  justify-content:space-evenly;/*horizontal distribution*/
-  align-items:center;/*vertical distribution*/
-  /*margin: 0 20%;*/
+  margin: 0 15%;/*center navbar*/
 }
 
 .up {
@@ -847,7 +844,8 @@ li {
 /*Style for menu links*/
 li a {
   display: block;
-  min-width: 140px;
+  padding:0 20px;
+  /*min-width: 140px;*/
   height: 50px;
   text-align: center;
   line-height: 50px;
