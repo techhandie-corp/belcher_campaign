@@ -231,7 +231,7 @@
 #body5 {background: transparent;}
 
 #ambassador-content {
-  font-family: "Architects Daughter";
+  font-family: "Nova Square";
   font-size: 1.25rem;
   color: var(--blu);
   margin: 50px 70px 0 30px;
@@ -245,7 +245,7 @@
 }
 
 #ambassador-content .salute {
-  font-family: "Architects Daughter";
+  font-family: "Nova Square";
   font-size: 1.5rem;
   margin: 0 0 20px 0;
 }
@@ -255,7 +255,7 @@
 }
 
 #ambassador-items span.b-item {
-  font-family: "Architects Daughter";
+  font-family: "Nova Square";
   font-weight: 500;
   margin: 0 0 0 15px;
   color: var(--blu);
@@ -667,7 +667,7 @@ input[type="textarea"] {
   grid-area: heading2;
   grid-row: 2/3;
   grid-column: 2/3;
-  font-family: 'Architects Daughter';
+  font-family: 'Nova Square';
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--eggplant);
@@ -722,7 +722,7 @@ p.custom {
 
 #donation a {
   text-decoration: none !important;
-  font-family: "Architects Daughter";
+  font-family: "Nova Square";
   font-size: 1.125rem;
   font-weight: 600;
   color: ivory;
@@ -812,7 +812,10 @@ header {
 }
 
 #menu {
-  margin: 0 20%;
+  display:flex;
+  justify-content:space-evenly;/*horizontal distribution*/
+  align-items:center;/*vertical distribution*/
+  /*margin: 0 20%;*/
 }
 
 .up {
@@ -1176,7 +1179,7 @@ input[type=checkbox]+label {
 #body4 {background: var(--softgray);}/*skyblu*/
 
 #platform-content {
-  font-family: "Architects Daughter";
+  font-family: "Nova Square";
   /*font-size: 1.25rem;*/
   color: var(--currant);
   margin: 100px 70px 0 30px;
