@@ -668,6 +668,8 @@ input[type="textarea"] {
   font-size: 3em;
   font-weight: 600;
   color: var(--turquoise);
+  text-align: center;
+  margin: 0 0 20px 0;
 }
 
 #dates .date {
