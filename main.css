@@ -1,7 +1,7 @@
 /****************/
 /*    General   */
 /****************/
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Bitter|Great+Vibes|Nova+Round|Nova+Square|Open+Sans|Oswald|Raleway|Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Bitter|Fjalla One|Great+Vibes|Do Hyoen|Nova+Round|Nova+Square|Open+Sans|Oswald|Raleway|Salsa|ZCOOL QingKe HuangYou&display=swap');
 
 :root {
   --batter: #ffff80;
@@ -626,6 +626,347 @@ input[type="textarea"] {
 
 /*====================Contribute End=====================*/
 
+
+/*======================Dates Start========================*/
+/* Dates */
+#dates {padding: 50px 0;}
+
+#dates .dates-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;;
+    /* auto auto auto auto auto */
+    /* 10% 30% 10% 40% 10% */
+  grid-template-rows: auto;
+  grid-gap: auto;
+  grid-template-areas:
+    "open open open open open"
+    "dates events times venues attach"
+    "dates events times venues attach"
+    "dates events times venues attach"
+	  "dates events times venues attach"
+    "close close close close close";
+  margin: 0;
+  padding: 80px 20px 80px 20px;
+  background-color: var(--water);
+}
+
+#dates a {
+  color: var(--plum);
+  text-decoration: none;
+}
+
+#dates a:hover {
+  color: var(--turquoise);
+}
+
+#dates .title {
+  grid-area: open;
+  grid-row: 1/2;
+  grid-column: 1/6;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  color: var(--turquoise);
+}
+
+#dates .date {
+  grid-area: dates;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-family:'Do Hyeon', sans-serif;
+  font-size: 1.5em;
+  color: var(--midnite);
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+#dates .event {
+  grid-area: events;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-family:'Do Hyeon', sans-serif;
+  font-size: 1.5em;
+  color: var(--midnite);
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+#dates .time {
+	grid-area: times;
+	grid-row: 2/3;
+	grid-column: 3/4;
+	font-family:'Do Hyeon', sans-serif;
+	font-size: 1.5em;
+	color: var(--midnite);
+	background-color: gainsboro;
+  padding: 20px;
+}
+
+#dates .venue {
+	grid-area: venues;
+	grid-row: 2/3;
+	grid-column: 4/5;
+	font-family:'Do Hyeon', sans-serif;
+	font-size: 1.5em;
+	color: var(--midnite);
+	background-color: gainsboro;
+  padding: 20px;
+}
+
+#dates .attach {
+  grid-area: attach;
+  grid-row: 2/3;
+  grid-column: 5/6;
+  font-family:'Do Hyeon', sans-serif;
+  font-size: 1.5em;
+  color: var(--midnite);
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+
+#dates .date1 {
+  grid-area: dates;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;/*Do Hyeon*/
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .event1 {
+  grid-area: events;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .time1 {
+	grid-area: times;
+	grid-row: 3/4;
+	grid-column: 3/4;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .venue1 {
+	grid-area: venues;
+	grid-row: 3/4;
+	grid-column: 4/5;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .attach1 {
+  grid-area: attach;
+  grid-row: 3/4;
+  grid-column: 5/6;
+  content: "";
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.125em;
+  color: var(--plum);
+  font-style: italic;
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .date2 {
+  grid-area: dates;
+  grid-row: 4/5;
+  grid-column: 1/2;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .event2 {
+  grid-area: event;
+  grid-row: 4/5;
+  grid-column: 2/3;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .time2 {
+	grid-area: times;
+	grid-row: 4/5;
+	grid-column: 3/4;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .venue2 {
+	grid-area: venues;
+	grid-row: 4/5;
+	grid-column: 4/5;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .attach2 {
+  grid-area: attach;
+  grid-row: 4/5;
+  grid-column: 5/6;
+  content: "";
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.125em;
+  color: var(--plum);
+  font-style: italic;
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .date3 {
+  grid-area: dates;
+  grid-row: 5/6;
+  grid-column: 1/2;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .event3 {
+  grid-area: event;
+  grid-row: 5/6;
+  grid-column: 2/3;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .time3 {
+	grid-area: times;
+	grid-row: 5/6;
+	grid-column: 3/4;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .venue3 {
+	grid-area: venues;
+	grid-row: 5/6;
+	grid-column: 4/5;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .attach3 {
+  grid-area: attach;
+  grid-row: 5/6;
+  grid-column: 5/6;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.125em;
+  color: var(--plum);
+  font-style: italic;
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+
+#dates .date4 {
+  grid-area: dates;
+  grid-row: 6/7;
+  grid-column: 1/2;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .event4 {
+  grid-area: event;
+  grid-row: 6/7;
+  grid-column: 2/3;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.5em;
+  color: var(--plum);
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .time4 {
+	grid-area: times;
+	grid-row: 6/7;
+	grid-column: 3/4;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .venue4 {
+	grid-area: venues;
+	grid-row: 6/7;
+	grid-column: 4/5;
+	font-family:'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 1.5em;
+	color: var(--plum);
+	border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+#dates .attach4 {
+  grid-area: attach;
+  grid-row: 6/7;
+  grid-column: 5/6;
+  font-family:'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 1.125em;
+  color: var(--plum);
+  font-style: italic;
+  border-bottom: 1px dashed var(--eggplant);
+  padding: 20px;
+}
+
+
+#dates .close {
+  grid-area: open;
+  grid-row: 7/8;
+  grid-column: 1/6;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+  padding: 40px 0;
+}
+
+/* Dates End */
+
+/*======================Dates End==========================*/
 
 /*======================Donate Start=======================*/
 
