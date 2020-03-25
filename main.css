@@ -898,7 +898,6 @@ input[type="textarea"] {
   padding: 20px;
 }
 
-
 #dates .date4 {
   grid-area: dates;
   grid-row: 6/7;
@@ -964,6 +963,22 @@ input[type="textarea"] {
   font-size: 1.125em;
   font-weight: 600;
   padding: 40px 0;
+}
+
+.dagger {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: var(--currant);
+}
+#dates .dagger_close {
+  grid-area: close;
+  grid-row: 7/8;
+  grid-column: 1/6;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  padding: 30px 0;
+  opacity:0.75;
 }
 
 /* Dates End */
